@@ -483,21 +483,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6B%6D%67%35%34%33%31%32@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://orcid.org/0000-0003-2679-8869", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -505,6 +498,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ZIYW21AAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/min_gyun104", "_blank");
         },
       },{
         id: 'social-custom_social',
