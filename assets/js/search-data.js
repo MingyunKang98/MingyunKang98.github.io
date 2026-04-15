@@ -493,6 +493,13 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0003-2679-8869", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MingyunKang98", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -511,7 +518,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://conict.seoultech.ac.kr/", "_blank");
         },
       },{
       id: 'light-theme',
