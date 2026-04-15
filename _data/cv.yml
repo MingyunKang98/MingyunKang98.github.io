@@ -2,7 +2,7 @@
 
 cv:
   name: Mingyun Kang
-  headline: Researcher in Architectural Engineering & Automation
+  headline: Researcher in Construction Management & Automation
   email: kmg54312@gmail.com
   website: https://MingyunKang98.github.io/
   social_networks:
@@ -27,14 +27,14 @@ cv:
 
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
-        area: Architectural Engineering 
+        area: Architectural Engineering (Integrated Bachelor-Master Program)
         degree: Master
         start_date: 2024-03
         end_date: 2025-08
         highlights:
-          - Integrated Bachelor-Master Program
           - "GPA : 4.22 /4.5"
           - "Thesis : Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
+          - "Advisor : Prof. Taehoon Kim"
 
     experience:
       - company: CONICT Lab, Seoul National University of Science and Technology
@@ -187,10 +187,6 @@ cv:
       - name: Professor Taehoon Kim
         icon: fa-solid fa-laptop
         reference: "Associate Professor, Department of Architectural Engineering, Seoul National University of Science and Technology. Supervisor of Mingyun Kang's Master's research on computer vision-based construction supervision."
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
 design: 
   page:
