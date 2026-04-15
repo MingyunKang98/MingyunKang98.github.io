@@ -54,6 +54,7 @@ external_services:
 
 navbar_fixed: true
 footer_fixed: true
+enable_footer: false # set to false to hide the site footer (copyright / footer_text bar)
 search_enabled: true
 socials_in_search: true
 posts_in_search: true

@@ -29,6 +29,11 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+body.no-footer {
+  // Fixed footer removed; drop reserved bottom padding from body.
+  padding-bottom: 0;
+}
+
 .container {
   max-width: v.$max-content-width;
 }
