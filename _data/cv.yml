@@ -1,17 +1,15 @@
+# Available themes: classic (default), ember, engineeringclassic, engineeringresumes, harvard, ink, moderncv, opal, sb2nov.
+
 cv:
   name: Mingyun Kang
-  headline: Architectural Engineer
+  headline: Researcher in Architectural Engineering & Automation
   email: kmg54312@gmail.com
-  location: Seoul, Republic of Korea
-  website: https://mingyunkang98.github.io/
-
+  website: https://MingyunKang98.github.io/
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: mingyunkang98
+    - network: Google Scholar
+      username: ZIYW21AAAAAJ
 
   custom_connections:
 
@@ -19,124 +17,210 @@ cv:
     education:
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
-        area: Architectural Engineering Course, the School of Architecture
+        area: Architectural Engineering, School of Architecture
         degree: Bachelor
         start_date: 2017-03
         end_date: 2024-02
         highlights:
           - "Double Major: Business Administration"
-          - "GPA: 3.8 / 4.5"
+          - "GPA : 3.8 / 4.5"
 
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
-        area: Architectural Engineering
+        area: Architectural Engineering 
         degree: Master
         start_date: 2024-03
-        end_date: 2025-02
+        end_date: 2025-08
         highlights:
-          - "GPA: 4.22 / 4.5"
-          - "Thesis: Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
+          - Integrated Bachelor-Master Program
+          - "GPA : 4.22 /4.5"
+          - "Thesis : Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
 
     experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: CONICT Lab, Seoul National University of Science and Technology
+        position: Graduate Research Assistant
+        location: Seoul, Republic of Korea
+        start_date: 2022-06
+        end_date: 2025-08
+        summary: Conducted research on computer vision-based automated construction supervision, 3D reconstruction, and human-robot collaboration at construction sites under Prof. Taehoon Kim.
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed a computer vision-based adhesion quality inspection model for Exterior Insulation and Finishing System (EIFS)
+          - Published 3 SCIE journal papers and 2 SCOPUS conference papers as first/co-author
+          - Filed 5 domestic patent applications related to construction automation and vision-based inspection
+          - Participated in 3 national R&D projects funded by NRF and the Ministry of Land, Infrastructure and Transport (MOLIT)
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Best Paper Award (최우수학술상)
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Korean Institute of Building Construction (KIBC)"
+        date: 2023-05-19
+        awarder: Korean Institute of Building Construction
+        summary: "Awarded at the Spring Conference 2023 for the paper: A Basic Study on Image-based Numerical Measurement Model for Construction Sites"
 
-      - title: Max Planck Medal
+      - title: Best Paper Award (최우수학술상)
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Korean Institute of Building Construction (KIBC)"
+        date: 2024-05-24
+        awarder: Korean Institute of Building Construction
+        summary: "Awarded at the Spring Conference 2024 for the paper: A Basic Study on Rebar Spacing Measurement Method Based on Single Image Information"
+
+      - title: Excellence Paper Award (우수학술상)
+        authors:
+          - "Korean Institute of Building Construction (KIBC)"
+        date: 2025-05-16
+        awarder: Korean Institute of Building Construction
+        summary: "Awarded at the Spring Conference 2025 for the paper: A Basic Study on Image Analysis-based Crackdown on Illegal Buildings on Rooftops"
+
+      - title: Outstanding Thesis Award (우수논문상)
+        authors:
+          - "Seoul National University of Science and Technology"
+        date: 2025-08-21
+        awarder: Seoul National University of Science and Technology
+        summary: "Awarded for the Master's thesis: Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Computer Vision-Based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: Applied Sciences
+        releaseDate: 2024-12-01
+        summary: "Applied Sciences, 15(1), 125. (SCIE)"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Approach to Enhancing Panoramic Segmentation in Indoor Construction Sites Based on a Perspective Image Segmentation Foundation Model"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Juho Han
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: Applied Sciences
+        releaseDate: 2025-04-01
+        summary: "Applied Sciences, 15(9), 4875. (SCIE)"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Automated Vision-based Location Monitoring for Jack Support"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Minhyung Kim
+          - Taehoon Kim
+        publisher: KSCE Journal of Civil Engineering
+        releaseDate: 2025-01-01
+        summary: "KSCE Journal of Civil Engineering, 100374. (SCIE)"
+
+      - title: "Instance Segmentation of Exterior Insulation Finishing System using Synthetic Datasets"
+        authors:
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Juho Han
+          - Sanghyeon Na
+          - Taehoon Kim
+        publisher: "ISARC — Proceedings of the International Symposium on Automation and Robotics in Construction"
+        releaseDate: 2024-06-05
+        summary: "ISARC Vol. 41, pp. 1176-1181. IAARC Publications. (SCOPUS)"
+
+      - title: "Comparative Study of Structure from Motion on Construction Site"
+        authors:
+          - Mingyun Kang
+          - Sangmin Lee
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "ISARC — Proceedings of the International Symposium on Automation and Robotics in Construction"
+        releaseDate: 2025-07-28
+        summary: "ISARC Vol. 42, pp. 1395-1400. IAARC Publications. (SCOPUS)"
 
     Skills:
-      - name: Physics
+      - name: Computer Vision
         level: Master
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Instance Segmentation, Semantic Segmentation, Object Detection, 3D Reconstruction, Structure from Motion, Panoramic Image Processing, Image Super-Resolution"
 
     Languages:
-      - name: German
+      - name: Korean
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Proficient — TOEIC Speaking 160, Advanced Low (Valid: Nov. 2023 – Nov. 2025)"
 
     Interests:
-      - name: Physics
+      - name: Architectural Engineering & AI
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Computer Vision, Construction Automation, Digital Supervision, 3D Reconstruction, Human-Robot Collaboration, Smart Construction"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: Architectural Engineer License (건축기사)
+        date: 2025-06-13
+        issuer: Human Resources Development Service of Korea
         icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: TOEIC Speaking — Advanced Low (Score 160)
+        date: 2023-11-26
+        issuer: ETS
         icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "Digital Mapping-based Platform Research Laboratory for Healthy Construction Lifecycle"
+        summary: "National R&D project exploring digital mapping-based platforms for the full construction lifecycle. Focused on computer vision applications for automated construction supervision."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Vision-based adhesive application quality inspection for EIFS
+          - Tile quantity counting via computer vision
+        start_date: 2022-06-01
+        end_date: 2025-02-28
+
+      - name: "Development of Digital-based Architectural Supervision and Construction Automation Robot Technology"
+        summary: "Large-scale national R&D project (KRW 24,490M) funded by MOLIT aimed at developing digital architectural supervision systems and construction automation robots."
+        highlights:
+          - Instance segmentation of insulation finishing systems using synthetic datasets
+          - Panoramic image segmentation for indoor construction sites
+        start_date: 2022-04-01
+        end_date: 2026-12-31
+
+      - name: "Development of Human-Robot Collaboration Technology and Integrated Operation System for High-Altitude Work at Construction Sites"
+        summary: "Ongoing national R&D project (KRW 17,000M) funded by MOLIT developing XR-based human-robot collaboration platforms for multipurpose high-altitude construction work."
+        highlights:
+          - XR-based human-robot collaboration interface
+          - Integrated robot operation system for construction sites
+        start_date: 2025-04-25
+        end_date: 2027-12-31
 
     References:
-      - name: Professor John Doe
+      - name: Professor Taehoon Kim
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: "Associate Professor, Department of Architectural Engineering, Seoul National University of Science and Technology. Supervisor of Mingyun Kang's Master's research on computer vision-based construction supervision."
 
       - name: Professor Jane Smith
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+design: 
+  page:
+    size: a4
+  theme: sb2nov
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  links:
+    underline: true
+    show_external_link_icon: true
+  header:
+    # alignment: center # (3)!
+    # photo_width: 3.5cm
+    # photo_position: left # (8)!
+    # photo_space_left: 0.4cm
+    # photo_space_right: 0.4cm
+    # space_below_name: 0.7cm
+    # space_below_headline: 0.7cm
+    # space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national # (7)!
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
