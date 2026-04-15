@@ -24,28 +24,27 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Seoul National University of Science and Technology
+        location: Seoul, Republic of Korea
+        url: https://www.seoultech.ac.kr/
+        area: Architectural Engineering Course, the School of Architecture
+        studyType: Bachelor
+        start_date: 2017
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - Double Major: Business Administration
+          - GPA : 3.8 / 4.5
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Seoul National University of Science and Technology
+        location: Seoul, Republic of Korea
+        url: https://www.seoultech.ac.kr/
+        area: Architectural Engineering
+        studyType: Master
+        start_date: 2024
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - GPA : 4.22 / 4.5
+          - Thesis : Computer Vision-based Ahesion Quality Inspection Model for Exterior Insulation and Finishing System
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
@@ -57,45 +56,7 @@ cv:
         highlights:
           - Relativity
           - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
+          
     Awards:
       - title: Nobel Prize in Physics
         authors:
