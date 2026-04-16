@@ -2,39 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Post-Master Researcher · <a href='https://www.kict.re.kr/' target='_blank'>Korea Institute of Civil Engineering and Building Technology (KICT)</a>
 
 profile:
   align: right
   image: profile_1.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>+82 31-910-0362</p>
-    <p>kmg54312@gmail.com</p>
-    <p>kmg4312@kict.re.kr</p>
-    <p>Seoul, Republic of Korea</p>
+    <p>📞 +82 31-910-0362</p>
+    <p>✉️ kmg54312@gmail.com</p>
+    <p>✉️ kmg4312@kict.re.kr</p>
+    <p>📍 Seoul, Republic of Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I am Mingyun Kang from Republic of Korea, Seoul.
+I am **Mingyun Kang**, a Post-Master Researcher at the [Korea Institute of Civil Engineering and Building Technology (KICT)](https://www.kict.re.kr/), based in Seoul, Republic of Korea.
 
-I majored architectural engineering at Seoul National University of Science and Technology, a.k.a [SeoulTECH](https://www.seoultech.ac.kr/).
+I received my degree(B.E & M.E) in **Architectural Engineering** from [Seoul National University of Science and Technology (SeoulTECH)](https://www.seoultech.ac.kr/), where I developed a strong foundation in building systems, structural design, and construction technology.
 
-And Now I am working as Post-Master resercher in Korea Institute of Civil Engineering and Building Technology, aka [KICT](https://www.kict.re.kr/)
+At KICT, my research focuses on **[your research topic — e.g., smart construction, building performance, structural monitoring, etc.]**, with the goal of advancing sustainable and intelligent infrastructure solutions. I am particularly interested in **[specific interest area]** and its practical applications in the built environment.
 
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to explore my [publications](/publications/), or reach out via email if you'd like to collaborate or discuss research.
