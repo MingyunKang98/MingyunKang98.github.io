@@ -27,3 +27,5 @@ I received my degree(B.E & M.E) in **Architectural Engineering** from [Seoul Nat
 At KICT, my research focuses on **[your research topic — e.g., smart construction, building performance, structural monitoring, etc.]**, with the goal of advancing sustainable and intelligent infrastructure solutions. I am particularly interested in **[specific interest area]** and its practical applications in the built environment.
 
 Feel free to explore my [publications](/publications/), or reach out via email if you'd like to collaborate or discuss research.
+
+I wanna study abroad~!!!!
