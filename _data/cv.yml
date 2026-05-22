@@ -33,8 +33,8 @@ cv:
         end_date: 2025-08
         highlights:
           - "GPA : 4.22 /4.5"
-          - "Thesis : Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
-          - "Advisor : Prof. Taehoon Kim"
+          - "Thesis : Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System (Advisor : Prof. Taehoon Kim)"
+      
 
     Research Experience:
       - company: CONICT Lab, Seoul National University of Science and Technology
@@ -42,17 +42,18 @@ cv:
         location: Seoul, Republic of Korea
         start_date: 2021-12
         end_date: 2025-08
-        summary: Conducted research on computer vision-based automated construction supervision, 3D reconstruction, and human-robot collaboration at construction sites under Prof. Taehoon Kim.
+        summary: Conducted research on computer vision-based automated construction supervision, 3D reconstruction, and human-robot collaboration at construction sites.
         highlights:
-          - Developed a computer vision-based adhesion quality inspection model for Exterior Insulation and Finishing System (EIFS)
           - Published 3 SCIE journal papers and 2 SCOPUS conference papers as first/co-author
           - Filed 5 domestic patent applications related to construction automation and vision-based inspection
           - Participated in 3 national R&D projects funded by NRF and the Ministry of Land, Infrastructure and Transport (MOLIT)
       - company: Korea Institute of Civil Engineering and Building Technology (KICT)
         position: Post-Master's Researcher
-        location: Goyang-si, Republic of Korea
+        location: Goyang, Republic of Korea
+        summary: Post-Construction Evaluation & Management Center, Conducted research on Post-Evaluation of SOC in Republic of Korea
         start_date: 2025-11
         end_date: present
+    
 
 
     Publications (SCIE):
@@ -61,8 +62,9 @@ cv:
           - Mingyun Kang
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: Applied Sciences
+        journal: Applied Sciences
         date: 2024-12-01
+        doi: "10.3390/app15010125"
         summary: "Applied Sciences, 15(1), 125."
 
       - title: "Approach to Enhancing Panoramic Segmentation in Indoor Construction Sites Based on a Perspective Image Segmentation Foundation Model"
@@ -71,8 +73,9 @@ cv:
           - Sebeen Yoon
           - Mingyun Kang
           - Taehoon Kim
-        publisher: Applied Sciences
+        journal: Applied Sciences
         date: 2025-04-01
+        doi: "10.3390/app15094875"
         summary: "Applied Sciences, 15(9), 4875."
 
       - title: "Automated Vision-based Location Monitoring for Jack Support"
@@ -81,8 +84,9 @@ cv:
           - Mingyun Kang
           - Minhyung Kim
           - Taehoon Kim
-        publisher: KSCE Journal of Civil Engineering
+        journal: KSCE Journal of Civil Engineering
         date: 2025-01-01
+        doi: "10.1016/j.kscej.2025.100374"
         summary: "KSCE Journal of Civil Engineering, 100374."
 
     Publications (SCOPUS):
@@ -93,8 +97,9 @@ cv:
           - Juho Han
           - Sanghyeon Na
           - Taehoon Kim
-        publisher: "ISARC 2024 — International Symposium on Automation and Robotics in Construction"
+        journal: "ISARC 2024 — International Symposium on Automation and Robotics in Construction"
         date: 2024-06-03
+        doi: "10.22260/ISARC2024/0152"
         summary: "ISARC Vol. 41, pp. 1176-1181. IAARC Publications."
 
       - title: "Comparative Study of Structure from Motion on Construction Site"
@@ -103,7 +108,7 @@ cv:
           - Sangmin Lee
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: "ISARC 2025 — International Symposium on Automation and Robotics in Construction"
+        journal: "ISARC 2025 — International Symposium on Automation and Robotics in Construction"
         date: 2025-07-28
         summary: "ISARC Vol. 42, pp. 1395-1400. IAARC Publications."
 
@@ -115,7 +120,7 @@ cv:
           - Junsang Yoo
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: "Creative Construction Conference (CCC 2023)"
+        journal: "Creative Construction Conference (CCC 2023)"
         date: 2023-06-20
         summary: "CCC 2023, Keszthely, Hungary."
 
@@ -124,7 +129,7 @@ cv:
           - Sebeen Yoon
           - Mingyun Kang
           - Taehoon Kim
-        publisher: "Creative Construction Conference (CCC 2023)"
+        journal: "Creative Construction Conference (CCC 2023)"
         date: 2023-06-20
         summary: "CCC 2023, Keszthely, Hungary."
 
@@ -135,7 +140,7 @@ cv:
           - Mingyun Kang
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: "Creative Construction Conference (CCC 2024)"
+        journal: "Creative Construction Conference (CCC 2024)"
         date: 2024-06-29
         summary: "CCC 2024, Prague, Czech Republic."
 
@@ -146,7 +151,7 @@ cv:
           - Mingyun Kang
           - Hyeonseung Jang
           - Taehoon Kim
-        publisher: "Journal of the Korean Institute of Building Construction (JKIBC)"
+        journal: "Journal of the Korean Institute of Building Construction (JKIBC)"
         date: 2023-03-01
         summary: "JKIBC, 23(2), 165-173. (KCI)"
 
@@ -156,7 +161,7 @@ cv:
           - Mingyun Kang
           - Byeongmin Lee
           - Taehoon Kim
-        publisher: "Proceedings of the Architectural Institute of Korea"
+        journal: "Proceedings of the Architectural Institute of Korea"
         date: 2022-10-01
         summary: "AIK, 42(2), 704-705."
 
@@ -165,7 +170,7 @@ cv:
           - Sebeen Yoon
           - Mingyun Kang
           - Taehoon Kim
-        publisher: "Proceedings of KIBC Spring Conference"
+        journal: "Proceedings of KIBC Spring Conference"
         date: 2023-05-19
         summary: "KIBC Spring 2023, 23(1), 287-288. [Best Paper Award]"
 
@@ -175,7 +180,7 @@ cv:
           - Junsang Yoo
           - Wooseok Lee
           - Taehoon Kim
-        publisher: "Proceedings of KICEM Annual Conference"
+        journal: "Proceedings of KICEM Annual Conference"
         date: 2023-11-02
         summary: "KICEM 2023, Goseong, 205-206."
 
@@ -187,7 +192,7 @@ cv:
           - Yunjae Jeon
           - Mingyun Kang
           - Taehoon Kim
-        publisher: "Proceedings of KIBC Spring Conference"
+        journal: "Proceedings of KIBC Spring Conference"
         date: 2024-05-22
         summary: "KIBC Spring 2024, Gunsan, 243-244."
 
@@ -196,7 +201,7 @@ cv:
           - Mingyun Kang
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: "Proceedings of Architectural Institute of Korea Autumn Conference"
+        journal: "Proceedings of Architectural Institute of Korea Autumn Conference"
         date: 2024-10-23
         summary: "AIK Autumn 2024, Gyeongju, 974-975."
 
@@ -206,7 +211,7 @@ cv:
           - Juho Han
           - Sebeen Yoon
           - Taehoon Kim
-        publisher: "Proceedings of KIBC Autumn Conference"
+        journal: "Proceedings of KIBC Autumn Conference"
         date: 2024-11-01
         summary: "KIBC Autumn 2024, 203-204."
 
@@ -215,7 +220,7 @@ cv:
           - Minhyung Lee
           - Mingyun Kang
           - Taehoon Kim
-        publisher: "Proceedings of National University Student Academic Conference"
+        journal: "Proceedings of National University Student Academic Conference"
         date: 2024-11-01
         summary: "National Student Conference 2024, 177-178."
 
@@ -227,7 +232,7 @@ cv:
           - Gangmin Bae
           - Mingyun Kang
           - Taehoon Kim
-        publisher: "Proceedings of KIBC Spring Conference"
+        journal: "Proceedings of KIBC Spring Conference"
         date: 2025-05-14
         summary: "KIBC Spring 2025, Gyeongju, 309-310."
 
