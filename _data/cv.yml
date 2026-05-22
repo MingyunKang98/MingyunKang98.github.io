@@ -14,7 +14,7 @@ cv:
   custom_connections:
 
   sections:
-    education:
+    Education:
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
         area: Architectural Engineering, School of Architecture
