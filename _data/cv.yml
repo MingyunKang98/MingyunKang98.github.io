@@ -55,6 +55,256 @@ cv:
         end_date: present
 
 
+    Publications (SCIE):
+      - title: "Computer Vision-Based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
+        authors:
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: Applied Sciences
+        date: 2024-12-01
+        summary: "Applied Sciences, 15(1), 125."
+
+      - title: "Approach to Enhancing Panoramic Segmentation in Indoor Construction Sites Based on a Perspective Image Segmentation Foundation Model"
+        authors:
+          - Juho Han
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: Applied Sciences
+        date: 2025-04-01
+        summary: "Applied Sciences, 15(9), 4875."
+
+      - title: "Automated Vision-based Location Monitoring for Jack Support"
+        authors:
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Minhyung Kim
+          - Taehoon Kim
+        publisher: KSCE Journal of Civil Engineering
+        date: 2025-01-01
+        summary: "KSCE Journal of Civil Engineering, 100374."
+
+    Publications (SCOPUS):
+      - title: "Instance Segmentation of Exterior Insulation Finishing System using Synthetic Datasets"
+        authors:
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Juho Han
+          - Sanghyeon Na
+          - Taehoon Kim
+        publisher: "ISARC 2024 — International Symposium on Automation and Robotics in Construction"
+        date: 2024-06-03
+        summary: "ISARC Vol. 41, pp. 1176-1181. IAARC Publications."
+
+      - title: "Comparative Study of Structure from Motion on Construction Site"
+        authors:
+          - Mingyun Kang
+          - Sangmin Lee
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "ISARC 2025 — International Symposium on Automation and Robotics in Construction"
+        date: 2025-07-28
+        summary: "ISARC Vol. 42, pp. 1395-1400. IAARC Publications."
+
+    Publications (International Conference):
+      - title: "Computer Vision-Based Tile Counting Model for Automated Progress Monitoring"
+        authors:
+          - Mingyun Kang
+          - Wooseok Lee
+          - Junsang Yoo
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "Creative Construction Conference (CCC 2023)"
+        date: 2023-06-20
+        summary: "CCC 2023, Keszthely, Hungary."
+
+      - title: "A Preliminary Study on Automatic Jack Support Installation Interval Measurement Model"
+        authors:
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: "Creative Construction Conference (CCC 2023)"
+        date: 2023-06-20
+        summary: "CCC 2023, Keszthely, Hungary."
+
+      - title: "Approach for Improving Panoramic Image Segmentation Quality on Construction Sites using SAM"
+        authors:
+          - Juho Han
+          - Sanghyeon Na
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "Creative Construction Conference (CCC 2024)"
+        date: 2024-06-29
+        summary: "CCC 2024, Prague, Czech Republic."
+
+    Publications (Domestic):
+      - title: "Computer Vision-based Adhesion Quality Inspection Automation Model for Exterior Insulation and Finishing System"
+        authors:
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Hyeonseung Jang
+          - Taehoon Kim
+        publisher: "Journal of the Korean Institute of Building Construction (JKIBC)"
+        date: 2023-03-01
+        summary: "JKIBC, 23(2), 165-173. (KCI)"
+
+      - title: "Preliminary Study on Semantic Segmentation-based Quality Inspection Model for Exterior Insulation"
+        authors:
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Byeongmin Lee
+          - Taehoon Kim
+        publisher: "Proceedings of the Architectural Institute of Korea"
+        date: 2022-10-01
+        summary: "AIK, 42(2), 704-705."
+
+      - title: "A Basic Study on Image-based Numerical Measurement Model for Construction Sites"
+        authors:
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: "Proceedings of KIBC Spring Conference"
+        date: 2023-05-19
+        summary: "KIBC Spring 2023, 23(1), 287-288. [Best Paper Award]"
+
+      - title: "Applicability Enhancement of Deep Learning-based Computer Vision Models for 360° Panoramic Images"
+        authors:
+          - Mingyun Kang
+          - Junsang Yoo
+          - Wooseok Lee
+          - Taehoon Kim
+        publisher: "Proceedings of KICEM Annual Conference"
+        date: 2023-11-02
+        summary: "KICEM 2023, Goseong, 205-206."
+
+      - title: "A Basic Study on Rebar Spacing Measurement Method Based on Single Image Information"
+        authors:
+          - Cheolhun Park
+          - Jieun Lee
+          - Jihyeon Lee
+          - Yunjae Jeon
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: "Proceedings of KIBC Spring Conference"
+        date: 2024-05-22
+        summary: "KIBC Spring 2024, Gunsan, 243-244."
+
+      - title: "Performance Comparison Study on Image-based 3D Space Generation"
+        authors:
+          - Mingyun Kang
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "Proceedings of Architectural Institute of Korea Autumn Conference"
+        date: 2024-10-23
+        summary: "AIK Autumn 2024, Gyeongju, 974-975."
+
+      - title: "A Basic Study on 3D Reconstruction Performance Improvement Using 360° Camera"
+        authors:
+          - Mingyun Kang
+          - Juho Han
+          - Sebeen Yoon
+          - Taehoon Kim
+        publisher: "Proceedings of KIBC Autumn Conference"
+        date: 2024-11-01
+        summary: "KIBC Autumn 2024, 203-204."
+
+      - title: "Construction of High-Resolution 360° Image Dataset Using Image Super-Resolution Technology"
+        authors:
+          - Minhyung Lee
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: "Proceedings of National University Student Academic Conference"
+        date: 2024-11-01
+        summary: "National Student Conference 2024, 177-178."
+
+      - title: "A Basic Study on Image Analysis-based Crackdown on Illegal Rooftop Buildings"
+        authors:
+          - Yeon Choi
+          - Seonwoo Lee
+          - Yujin Oh
+          - Gangmin Bae
+          - Mingyun Kang
+          - Taehoon Kim
+        publisher: "Proceedings of KIBC Spring Conference"
+        date: 2025-05-14
+        summary: "KIBC Spring 2025, Gyeongju, 309-310."
+
+    Patents:
+      - title: "Automatic Supervision Method and Device for Adhesive Application Quality"
+        authors:
+          - Taehoon Kim
+          - Sebeen Yoon
+          - Mingyun Kang
+        date: 2023-04-25
+        summary: "Domestic Patent Application No. 10-2023-0053756. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
+
+      - title: "Automated Construction Site Supervision System"
+        authors:
+          - Taehoon Kim
+          - Sebeen Yoon
+          - Mingyun Kang
+        date: 2023-09-20
+        summary: "Domestic Patent Application No. 10-2023-0125464. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
+
+      - title: "Tile Quantity Counting System"
+        authors:
+          - Taehoon Kim
+          - Sebeen Yoon
+          - Mingyun Kang
+          - Wooseok Lee
+          - Junsang Yoo
+        date: 2023-10-11
+        summary: "Domestic Patent Application No. 10-2023-0135013. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
+
+      - title: "Method for Measuring Rebar Spacing Based on Single Image Information"
+        authors:
+          - Taehoon Kim
+          - Mingyun Kang
+          - Cheolhun Park
+          - Jihyeon Lee
+          - Jieun Lee
+          - Yunjae Jeon
+        date: 2024-09-20
+        summary: "Domestic Patent Application No. 10-2024-0127210. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
+
+      - title: "Method for Detecting Illegal Rooftop Buildings Based on Video Image Analysis"
+        authors:
+          - Taehoon Kim
+          - Mingyun Kang
+          - Seonwoo Lee
+          - Yeon Choi
+          - Yujin Oh
+          - Gangmin Bae
+        date: 2025-08-22
+        summary: "Domestic Patent Application No. 10-2025-0117608. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
+
+    Projects:
+      - name: "Digital Mapping-based Platform Research Laboratory for Healthy Construction Lifecycle"
+        summary: "National R&D project exploring digital mapping-based platforms for the full construction lifecycle. Focused on computer vision applications for automated construction supervision."
+        highlights:
+          - Vision-based adhesive application quality inspection for EIFS
+          - Tile quantity counting via computer vision
+        start_date: 2022-06-01
+        end_date: 2025-02-28
+
+      - name: "Development of Digital-based Architectural Supervision and Construction Automation Robot Technology"
+        summary: "Large-scale national R&D project (KRW 24,490M) funded by MOLIT aimed at developing digital architectural supervision systems and construction automation robots."
+        highlights:
+          - Instance segmentation of insulation finishing systems using synthetic datasets
+          - Panoramic image segmentation for indoor construction sites
+        start_date: 2022-04-01
+        end_date: 2026-12-31
+
+      - name: "Development of Human-Robot Collaboration Technology and Integrated Operation System for High-Altitude Work at Construction Sites"
+        summary: "Ongoing national R&D project (KRW 17,000M) funded by MOLIT developing XR-based human-robot collaboration platforms for multipurpose high-altitude construction work."
+        highlights:
+          - XR-based human-robot collaboration interface
+          - Integrated robot operation system for construction sites
+        start_date: 2025-04-25
+        end_date: 2027-12-31
+
     Awards:
       - title: Best Paper Award (최우수학술상)
         authors:
@@ -84,74 +334,19 @@ cv:
         awarder: Seoul National University of Science and Technology
         summary: "Awarded for the Master's thesis: Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
 
-    Publications:
-      - title: "Computer Vision-Based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
-        authors:
-          - Mingyun Kang
-          - Sebeen Yoon
-          - Taehoon Kim
-        publisher: Applied Sciences
-        releaseDate: 2024-12-01
-        summary: "Applied Sciences, 15(1), 125. (SCIE)"
+    Languages & Skills:
+      - bullet: "Korean (Native)   ·   English (Advanced)   ·   Python (Advanced)"
 
-      - title: "Approach to Enhancing Panoramic Segmentation in Indoor Construction Sites Based on a Perspective Image Segmentation Foundation Model"
-        authors:
-          - Juho Han
-          - Sebeen Yoon
-          - Mingyun Kang
-          - Taehoon Kim
-        publisher: Applied Sciences
-        releaseDate: 2025-04-01
-        summary: "Applied Sciences, 15(9), 4875. (SCIE)"
+    Hobbies:
+      - bullet: "Golf   ·   Running   ·   Snowboarding"
 
-      - title: "Automated Vision-based Location Monitoring for Jack Support"
-        authors:
-          - Sebeen Yoon
-          - Mingyun Kang
-          - Minhyung Kim
-          - Taehoon Kim
-        publisher: KSCE Journal of Civil Engineering
-        releaseDate: 2025-01-01
-        summary: "KSCE Journal of Civil Engineering, 100374. (SCIE)"
-
-      - title: "Instance Segmentation of Exterior Insulation Finishing System using Synthetic Datasets"
-        authors:
-          - Mingyun Kang
-          - Sebeen Yoon
-          - Juho Han
-          - Sanghyeon Na
-          - Taehoon Kim
-        publisher: "ISARC — Proceedings of the International Symposium on Automation and Robotics in Construction"
-        releaseDate: 2024-06-05
-        summary: "ISARC Vol. 41, pp. 1176-1181. IAARC Publications. (SCOPUS)"
-
-      - title: "Comparative Study of Structure from Motion on Construction Site"
-        authors:
-          - Mingyun Kang
-          - Sangmin Lee
-          - Sebeen Yoon
-          - Taehoon Kim
-        publisher: "ISARC — Proceedings of the International Symposium on Automation and Robotics in Construction"
-        releaseDate: 2025-07-28
-        summary: "ISARC Vol. 42, pp. 1395-1400. IAARC Publications. (SCOPUS)"
-
-    Skills:
-      - name: Computer Vision
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Instance Segmentation, Semantic Segmentation, Object Detection, 3D Reconstruction, Structure from Motion, Panoramic Image Processing, Image Super-Resolution"
-
-    Languages:
-      - name: Korean
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Proficient — TOEIC Speaking 160, Advanced Low (Valid: Nov. 2023 – Nov. 2025)"
-
-    Interests:
-      - name: Architectural Engineering & AI
-        icon: fa-solid fa-tag
-        keywords: "Computer Vision, Construction Automation, Digital Supervision, 3D Reconstruction, Human-Robot Collaboration, Smart Construction"
+    Military Service:
+      - company: "Capital Defense Command, 1st Security Battalion, Republic of Korea Army"
+        position: Sergeant (병장), Rifleman
+        location: Republic of Korea
+        start_date: 2018-12
+        end_date: 2021-09
+        summary: Completed mandatory military service as an infantry rifleman. Honorably discharged at the rank of Sergeant.
 
     Certificates:
       - name: Architectural Engineer License (건축기사)
@@ -163,31 +358,6 @@ cv:
         date: 2023-11-26
         issuer: ETS
         icon: fa-solid fa-tag
-
-    Projects:
-      - name: "Digital Mapping-based Platform Research Laboratory for Healthy Construction Lifecycle"
-        summary: "National R&D project exploring digital mapping-based platforms for the full construction lifecycle. Focused on computer vision applications for automated construction supervision."
-        highlights:
-          - Vision-based adhesive application quality inspection for EIFS
-          - Tile quantity counting via computer vision
-        start_date: 2022-06-01
-        end_date: 2025-02-28
-
-      - name: "Development of Digital-based Architectural Supervision and Construction Automation Robot Technology"
-        summary: "Large-scale national R&D project (KRW 24,490M) funded by MOLIT aimed at developing digital architectural supervision systems and construction automation robots."
-        highlights:
-          - Instance segmentation of insulation finishing systems using synthetic datasets
-          - Panoramic image segmentation for indoor construction sites
-        start_date: 2022-04-01
-        end_date: 2026-12-31
-
-      - name: "Development of Human-Robot Collaboration Technology and Integrated Operation System for High-Altitude Work at Construction Sites"
-        summary: "Ongoing national R&D project (KRW 17,000M) funded by MOLIT developing XR-based human-robot collaboration platforms for multipurpose high-altitude construction work."
-        highlights:
-          - XR-based human-robot collaboration interface
-          - Integrated robot operation system for construction sites
-        start_date: 2025-04-25
-        end_date: 2027-12-31
 
     References:
       - name: Professor Taehoon Kim
