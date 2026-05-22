@@ -36,11 +36,11 @@ cv:
           - "Thesis : Computer Vision-based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
           - "Advisor : Prof. Taehoon Kim"
 
-    experience:
+    Research Experience:
       - company: CONICT Lab, Seoul National University of Science and Technology
-        position: Graduate Research Assistant
+        position: Research Assistant
         location: Seoul, Republic of Korea
-        start_date: 2022-06
+        start_date: 2021-12
         end_date: 2025-08
         summary: Conducted research on computer vision-based automated construction supervision, 3D reconstruction, and human-robot collaboration at construction sites under Prof. Taehoon Kim.
         highlights:
@@ -48,6 +48,12 @@ cv:
           - Published 3 SCIE journal papers and 2 SCOPUS conference papers as first/co-author
           - Filed 5 domestic patent applications related to construction automation and vision-based inspection
           - Participated in 3 national R&D projects funded by NRF and the Ministry of Land, Infrastructure and Transport (MOLIT)
+      - company: Korea Institute of Civil Engineering and Building Technology (KICT)
+        position: Post-Master's Researcher
+        location: Goyang-si, Republic of Korea
+        start_date: 2025-11
+        end_date: present
+
 
     Awards:
       - title: Best Paper Award (최우수학술상)
