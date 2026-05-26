@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-toefl",
+          title: "TOEFL",
+          description: "TOEFL 2026 Reading Task 1 — Complete the Words practice",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/toefl/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
