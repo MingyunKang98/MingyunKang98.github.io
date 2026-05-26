@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-toefl",
           title: "TOEFL",
-          description: "TOEFL 2026 Reading Task 1 — Complete the Words practice",
+          description: "TOEFL 2026 Reading Task 1 &amp; 짝표현 practice",
           section: "Navigation",
           handler: () => {
             window.location.href = "/toefl/";
