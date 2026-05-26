@@ -110,35 +110,33 @@ nav_order: 6
 /* Individual letter box */
 .letter-box {
   display: inline-block;
-  width: 26px;
-  height: 30px;
-  border: 1.5px solid #bbb;
-  border-radius: 4px;
-  background: #fff;
+  width: 14px;
+  height: 1.15em;
+  border: none;
+  border-bottom: 1.5px solid #888;
+  background: transparent;
   text-align: center;
   font-size: 1rem;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: normal;
   color: #222;
   outline: none;
   padding: 0;
-  transition: border-color 0.15s, background 0.15s;
+  vertical-align: baseline;
+  transition: border-color 0.15s;
   caret-color: transparent;
 }
 .letter-box:focus {
-  border-color: #4a90e2;
-  background: #eef4fd;
+  border-bottom-color: #4a90e2;
 }
 .letter-box.correct {
-  border-color: #27ae60;
-  background: #eafaf1;
-  color: #27ae60;
-  font-weight: 700;
+  border-bottom-color: #27ae60;
+  color: #222;
+  font-weight: normal;
 }
 .letter-box.incorrect {
-  border-color: #e74c3c;
-  background: #fdf0ef;
-  color: #e74c3c;
+  border-bottom-color: #e74c3c;
+  color: #222;
 }
 
 /* Score box */
