@@ -105,7 +105,10 @@ nav_order: 6
   outline: none; padding: 0; vertical-align: baseline;
   transition: border-color 0.15s; caret-color: transparent;
 }
-.letter-box:focus { border-bottom-color: #4a90e2; }
+.letter-box:focus {
+  border-bottom-color: #4a90e2;
+  caret-color: #4a90e2;
+}
 .letter-box.correct  { border-bottom-color: #27ae60; color: #222; font-weight: normal; }
 .letter-box.incorrect{ border-bottom-color: #e74c3c; color: #222; }
 
@@ -134,11 +137,11 @@ nav_order: 6
 @media (max-width: 600px) { .pe-grid { grid-template-columns: 1fr; } }
 
 .pe-item {
-  padding: 0.55rem 0.75rem;
+  padding: 0.6rem 0.75rem 0.6rem 1rem;
   border-radius: 6px;
   background: #f8f9fa;
-  border-left: 3px solid #e0e0e0;
-  transition: border-color 0.15s;
+  border-left: 4px solid #4a90e2;
+  transition: border-color 0.15s, background 0.15s;
 }
 .pe-item.correct-item  { border-left-color: #27ae60; background: #f2fbf5; }
 .pe-item.incorrect-item{ border-left-color: #e74c3c; background: #fdf5f5; }
@@ -146,12 +149,12 @@ nav_order: 6
 .pe-korean {
   font-size: 0.78rem;
   color: #888;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.1rem;
   font-style: italic;
 }
 .pe-expression {
-  font-size: 1rem;
-  line-height: 1.8;
+  font-size: 1.05rem;
+  line-height: 2.6;
 }
 
 /* Pagination */
@@ -304,9 +307,8 @@ function attachBoxEvents(container) {
         else if (e.key === 'ArrowRight' && i < boxes.length-1) { e.preventDefault(); boxes[i+1].focus(); }
     });
     box.addEventListener('input', () => {
-      if (box.value.length === 1 && i < boxes.length-1 &&
-          boxes[i+1].dataset.blank === box.dataset.blank) {
-        boxes[i+1].focus();
+      if (box.value.length === 1 && i < boxes.length - 1) {
+        boxes[i + 1].focus();
       }
     });
   });
