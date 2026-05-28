@@ -164,6 +164,9 @@ collections:
     output: true
   teachings:
     output: true
+  toefl:
+    output: true
+    permalink: /toefl/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
