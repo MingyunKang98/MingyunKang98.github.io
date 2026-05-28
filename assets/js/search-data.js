@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-toefl",
           title: "TOEFL",
-          description: "TOEFL 2026 Reading Task 1 &amp; 짝표현 practice",
+          description: "TOEFL iBT 2026 practice — Reading Task 1, 짝표현, 접두사",
           section: "Navigation",
           handler: () => {
             window.location.href = "/toefl/";
@@ -478,6 +478,21 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{id: "toefl-reading-task-1",
+          title: 'Reading Task 1',
+          description: "Complete the Words 형식 지문 빈칸 채우기",
+          section: "Toefl",handler: () => {
+              window.location.href = "/toefl/1_reading/";
+            },},{id: "toefl-짝-표현",
+          title: '짝 표현',
+          description: "TOEFL 빈출 collocation 50개 (Complete the Words 형식)",
+          section: "Toefl",handler: () => {
+              window.location.href = "/toefl/2_pair/";
+            },},{id: "toefl-접두사",
+          title: '접두사',
+          description: "빈출 접두사 22종 · 200문장 (해커스 박보라 응용문제)",
+          section: "Toefl",handler: () => {
+              window.location.href = "/toefl/3_prefix/";
             },},{
         id: 'social-cv',
         title: 'CV',
