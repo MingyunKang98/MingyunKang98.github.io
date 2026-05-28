@@ -1,0 +1,734 @@
+[
+  {
+    "prefix": "re-",
+    "meaning": "again, back (다시, 뒤로)",
+    "items": [
+      {
+        "text": "Markets that governments closely regu[late] tend to be more stable."
+      },
+      {
+        "text": "The editor asked the author to revi[se] the manuscript for clarity."
+      },
+      {
+        "text": "Species that reprod[uce] without genetic diversity may be vulnerable."
+      },
+      {
+        "text": "The government introduced policies to refo[rm] outdated welfare systems."
+      },
+      {
+        "text": "Students who fail the initial screening must reapp[ly] before the final deadline."
+      },
+      {
+        "text": "Conservation efforts aim to rest[ore] ecosystems damaged by pollution."
+      },
+      {
+        "text": "Articles revi[sed] after peer review tend to be more accurate."
+      },
+      {
+        "text": "The committee agreed to reconsid[er] its earlier conclusions."
+      },
+      {
+        "text": "Traditions reintrod[uced] after decades often regain social value."
+      },
+      {
+        "text": "Urban areas that rebu[ild] quickly often recover economically faster."
+      },
+      {
+        "text": "The scholar proposed a framework to redef[ine] key concepts in the field."
+      },
+      {
+        "text": "Trust is difficult to rest[ore] once it has been lost."
+      },
+      {
+        "text": "Authorities seek to regu[late] industries that pose environmental risks."
+      },
+      {
+        "text": "The theory was redef[ined] as new scientific evidence accumulated."
+      },
+      {
+        "text": "Applicants are encouraged to reapp[ly] if their qualifications improve significantly."
+      },
+      {
+        "text": "Programs that refo[rm] institutional practices often face resistance."
+      },
+      {
+        "text": "Many organisms reprod[uce] rapidly under favorable conditions."
+      },
+      {
+        "text": "The policy was reintrod[uced] following strong public demand."
+      },
+      {
+        "text": "Findings make us reconsid[er] long-standing assumptions about human behavior."
+      },
+      {
+        "text": "After the earthquake, the city decided to rebu[ild] critical infrastructure."
+      }
+    ]
+  },
+  {
+    "prefix": "un-",
+    "meaning": "not, reverse (부정, 반대)",
+    "items": [
+      {
+        "text": "Many rural residents remain unemp[loyed] due to the decline of local industries."
+      },
+      {
+        "text": "The instructions were uncl[ear], leaving participants uncertain about the procedure."
+      },
+      {
+        "text": "Patients with untrea[ted] infections face a higher risk of complications."
+      },
+      {
+        "text": "The results were unexpe[cted] given previous trends."
+      },
+      {
+        "text": "The system became unst[able] after repeated software failures."
+      },
+      {
+        "text": "Without proper oversight, online platforms may remain unregu[lated]."
+      },
+      {
+        "text": "The company was una[ble] to meet the production deadline."
+      },
+      {
+        "text": "Economic recovery has been slow, keeping unemp[loyment] at high levels."
+      },
+      {
+        "text": "The explanation remained uncl[ear], even after additional clarification."
+      },
+      {
+        "text": "Chemicals that are unst[able] at high temperatures require special storage."
+      },
+      {
+        "text": "Many diseases spread rapidly when left untrea[ted]."
+      },
+      {
+        "text": "The discovery was unexpe[cted], surprising even experienced researchers."
+      },
+      {
+        "text": "Without clear laws, financial markets may operate unregu[lated]."
+      },
+      {
+        "text": "Due to limited resources, the organization was una[ble] to expand its services."
+      }
+    ]
+  },
+  {
+    "prefix": "in-/im-/il-/ir-",
+    "meaning": "not (부정)",
+    "items": [
+      {
+        "text": "The difference between the two samples was statistically insignif[icant]."
+      },
+      {
+        "text": "Policies that are inapprop[riate] for local conditions often fail."
+      },
+      {
+        "text": "The new engine proved ineffi[cient], consuming more fuel than expected."
+      },
+      {
+        "text": "The results were inconsis[tent] with findings from earlier studies."
+      },
+      {
+        "text": "Without proper planning, the system becomes ineffi[cient] over time."
+      },
+      {
+        "text": "The scientist dismissed the variation as insignif[icant] in practical terms."
+      },
+      {
+        "text": "Instructions that are inapprop[riate] may confuse users."
+      },
+      {
+        "text": "Data from different sources appeared inconsis[tent] and unreliable."
+      },
+      {
+        "text": "Minor errors were considered insignif[icant] in the final analysis."
+      },
+      {
+        "text": "An ineffi[cient] allocation of resources slowed economic growth."
+      },
+      {
+        "text": "The proposal was rejected because it was inapprop[riate]."
+      },
+      {
+        "text": "The experimental outcome remained inconsis[tent] across trials."
+      }
+    ]
+  },
+  {
+    "prefix": "pre-",
+    "meaning": "before (이전, 미리)",
+    "items": [
+      {
+        "text": "The region preserved several prehist[oric] artifacts discovered during excavation."
+      },
+      {
+        "text": "Approval from the ethics committee is a precond[ition] for conducting the experiment."
+      },
+      {
+        "text": "The report presents prelim[inary] findings that require further verification."
+      },
+      {
+        "text": "Social inequalities preexis[ting] the reform continued afterward."
+      },
+      {
+        "text": "The study focuses on economic structures in preind[ustrial] societies."
+      },
+      {
+        "text": "Archaeologists study tools from prehist[oric] periods to understand early human behavior."
+      },
+      {
+        "text": "Access to clean water is a necessary precond[ition] for public health improvements."
+      },
+      {
+        "text": "The researchers released prelim[inary] data before publishing the full results."
+      },
+      {
+        "text": "Laws addressing problems preexis[ting] the crisis often prove insufficient."
+      },
+      {
+        "text": "Environmental conditions in preind[ustrial] times differed significantly from modern ones."
+      }
+    ]
+  },
+  {
+    "prefix": "inter-",
+    "meaning": "between, among (사이, 상호)",
+    "items": [
+      {
+        "text": "Modern challenges often require interdisc[iplinary] approaches that combine multiple fields."
+      },
+      {
+        "text": "Trade agreements shape internat[ional] relations between nations."
+      },
+      {
+        "text": "The study highlights the interdep[endence] of economic growth and environmental protection."
+      },
+      {
+        "text": "Social media has transformed patterns of human interact[ion]."
+      },
+      {
+        "text": "Climate policy depends on internat[ional] cooperation among governments."
+      },
+      {
+        "text": "Researchers examined species interact[ion] within complex ecosystems."
+      },
+      {
+        "text": "The project emphasizes interdisc[iplinary] collaboration between scientists and engineers."
+      },
+      {
+        "text": "Global supply chains reveal the interdep[endence] of national economies."
+      },
+      {
+        "text": "Diplomatic tensions can disrupt internat[ional] trade flows."
+      },
+      {
+        "text": "Language learning is influenced by cultural interact[ion] over time."
+      }
+    ]
+  },
+  {
+    "prefix": "sub-",
+    "meaning": "under, below (아래, 하위)",
+    "items": [
+      {
+        "text": "Certain fears operate at a subcons[cious] level, beyond conscious awareness."
+      },
+      {
+        "text": "Products labeled substand[ard] were removed from the market."
+      },
+      {
+        "text": "The assistant holds a subord[inate] position within the organization."
+      },
+      {
+        "text": "The data was divided into a subcat[egory] for more detailed analysis."
+      },
+      {
+        "text": "Scientists detected subsurf[ace] water using ground-penetrating radar."
+      },
+      {
+        "text": "Decisions made at a subord[inate] level must be approved by senior managers."
+      },
+      {
+        "text": "The report identified a subcat[egory] of participants with unique characteristics."
+      },
+      {
+        "text": "Much human behavior is influenced by the subcons[cious] mind."
+      },
+      {
+        "text": "Construction revealed subsurf[ace] structures beneath the site."
+      },
+      {
+        "text": "Materials failing to meet safety requirements were deemed substand[ard]."
+      }
+    ]
+  },
+  {
+    "prefix": "over-",
+    "meaning": "too much (과도하게)",
+    "items": [
+      {
+        "text": "The region faces severe water shortages due to the over[use] of groundwater."
+      },
+      {
+        "text": "Rapid urban growth has led to overpopula[tion], placing stress on housing and infrastructure."
+      },
+      {
+        "text": "Economists warn that overestima[ting] future profits can result in risky investments."
+      },
+      {
+        "text": "Environmental damage is often caused by the overconsump[tion] of natural resources."
+      },
+      {
+        "text": "Farmers are encouraged to reduce the overus[e] of chemical fertilizers."
+      },
+      {
+        "text": "Governments sometimes overestima[te] the short-term benefits of large-scale development."
+      },
+      {
+        "text": "Wildlife habitats are threatened by overpopula[tion] in expanding urban areas."
+      },
+      {
+        "text": "Climate change is intensified by the overconsump[tion] of fossil fuels."
+      },
+      {
+        "text": "Financial crises may occur when markets overestima[te] growth potential."
+      },
+      {
+        "text": "Sustainable policies aim to prevent the over[use] of limited resources."
+      }
+    ]
+  },
+  {
+    "prefix": "under-",
+    "meaning": "too little (부족하게)",
+    "items": [
+      {
+        "text": "Rural regions remain underdevel[oped] due to limited infrastructure investment."
+      },
+      {
+        "text": "Public schools that are underfun[ded] often struggle to maintain basic services."
+      },
+      {
+        "text": "Analysts frequently underestima[te] the long-term costs of environmental damage."
+      },
+      {
+        "text": "Minority groups are often underrepres[ented] in political institutions."
+      },
+      {
+        "text": "Health systems in underdevel[oped] countries face chronic shortages of medical staff."
+      },
+      {
+        "text": "Cultural programs remain underfun[ded] despite growing public demand."
+      },
+      {
+        "text": "Investors may underestima[te] risks during periods of economic optimism."
+      },
+      {
+        "text": "Women have historically been underrepres[ented] in scientific research fields."
+      }
+    ]
+  },
+  {
+    "prefix": "mis-",
+    "meaning": "wrong (잘못된)",
+    "items": [
+      {
+        "text": "The policy failed largely because officials misman[aged] public funds."
+      },
+      {
+        "text": "Readers often misinterpr[et] the author's intent when context is ignored."
+      },
+      {
+        "text": "A common misconce[ption] about climate change is that its effects are temporary."
+      },
+      {
+        "text": "The equipment was damaged due to the mis[use] of safety controls."
+      },
+      {
+        "text": "Students may misinterpr[et] data if statistical methods are poorly explained."
+      },
+      {
+        "text": "The company collapsed after executives misman[aged] resources for years."
+      },
+      {
+        "text": "The belief that memory works like a camera is a widespread misconce[ption]."
+      },
+      {
+        "text": "Over time, repeated mis[use] of antibiotics can lead to resistance."
+      }
+    ]
+  },
+  {
+    "prefix": "dis-",
+    "meaning": "not, apart (부정, 분리)",
+    "items": [
+      {
+        "text": "Armed conflict can disru[pt] food distribution networks."
+      },
+      {
+        "text": "Several traditional customs began to disappe[ar] as urbanization accelerated."
+      },
+      {
+        "text": "Power outages may disconne[ct] communities from emergency services."
+      },
+      {
+        "text": "Many citizens disappro[ve] of policies that increase social inequality."
+      },
+      {
+        "text": "Large construction projects often displa[ce] local residents."
+      },
+      {
+        "text": "Natural disasters frequently disru[pt] transportation systems."
+      },
+      {
+        "text": "Indigenous languages may disappe[ar] without active preservation efforts."
+      },
+      {
+        "text": "The storm disconne[cted] entire regions from the national grid."
+      },
+      {
+        "text": "Environmental groups disappro[ve] of mining operations in protected areas."
+      },
+      {
+        "text": "Climate change threatens to displa[ce] millions of people worldwide."
+      }
+    ]
+  },
+  {
+    "prefix": "con-/com-/co-",
+    "meaning": "together (함께)",
+    "items": [
+      {
+        "text": "Local residents were encouraged to contrib[ute] to the environmental restoration project."
+      },
+      {
+        "text": "The researchers plan to cond[uct] a long-term study on urban development."
+      },
+      {
+        "text": "Different data sets were combi[ned] to produce more reliable results."
+      },
+      {
+        "text": "Several organizations agreed to coop[erate] on the public health initiative."
+      },
+      {
+        "text": "Strong social ties help maintain a sense of comm[unity] within neighborhoods."
+      },
+      {
+        "text": "Citizens are expected to contrib[ute] ideas during the planning process."
+      },
+      {
+        "text": "The university will cond[uct] surveys to assess student satisfaction."
+      },
+      {
+        "text": "Scientists combi[ne] multiple methods to analyze complex systems."
+      },
+      {
+        "text": "Nations must coop[erate] to address global climate challenges."
+      },
+      {
+        "text": "Shared values strengthen the comm[unity] and promote social stability."
+      }
+    ]
+  },
+  {
+    "prefix": "de-",
+    "meaning": "down, remove (아래, 제거)",
+    "items": [
+      {
+        "text": "Many wildlife populations continue to decl[ine] as habitats shrink."
+      },
+      {
+        "text": "Governments aim to decrea[se] carbon emissions through stricter regulations."
+      },
+      {
+        "text": "Soil quality can degr[ade] rapidly when forests are removed."
+      },
+      {
+        "text": "Intensive agriculture may depl[ete] groundwater reserves."
+      },
+      {
+        "text": "Large-scale defore[station] contributes to biodiversity loss."
+      },
+      {
+        "text": "The report shows a steady decl[ine] in fish stocks over the past decade."
+      },
+      {
+        "text": "Efforts to decrea[se] waste have become a policy priority."
+      },
+      {
+        "text": "Overgrazing can degr[ade] land, making it unsuitable for farming."
+      },
+      {
+        "text": "Nonrenewable resources gradually depl[ete] if consumption continues unchecked."
+      },
+      {
+        "text": "Defore[station] accelerates climate change by reducing carbon absorption."
+      }
+    ]
+  },
+  {
+    "prefix": "trans-",
+    "meaning": "across (가로질러, 변화)",
+    "items": [
+      {
+        "text": "Digital media has transfo[rmed] how information is shared globally."
+      },
+      {
+        "text": "The disease can be transmi[tted] through close physical contact."
+      },
+      {
+        "text": "Many economies are undergoing a transi[tion] toward renewable energy."
+      },
+      {
+        "text": "Goods are transpo[rted] across borders through complex supply chains."
+      },
+      {
+        "text": "Education has the power to transfo[rm] social mobility."
+      },
+      {
+        "text": "Signals are transmi[tted] rapidly through fiber-optic cables."
+      },
+      {
+        "text": "The country faces a difficult transi[tion] from authoritarian rule to democracy."
+      },
+      {
+        "text": "Raw materials must be transpo[rted] efficiently to reduce costs."
+      },
+      {
+        "text": "Technological innovation continues to transfo[rm] modern workplaces."
+      },
+      {
+        "text": "Cultural knowledge is often transmi[tted] from one generation to the next."
+      }
+    ]
+  },
+  {
+    "prefix": "pro-",
+    "meaning": "for, forward (앞으로)",
+    "items": [
+      {
+        "text": "Governments often seek to prom[ote] innovation through research funding."
+      },
+      {
+        "text": "Economic prog[ress] depends heavily on technological advancement."
+      },
+      {
+        "text": "Companies that take a proact[ive] approach can better manage risk."
+      },
+      {
+        "text": "Modern factories produ[ce] goods using automated systems."
+      },
+      {
+        "text": "Education policies aim to prom[ote] equal access to learning opportunities."
+      },
+      {
+        "text": "Social prog[ress] is closely linked to public investment."
+      },
+      {
+        "text": "A proact[ive] response helped prevent further environmental damage."
+      },
+      {
+        "text": "Agricultural systems produ[ce] more food than ever before."
+      },
+      {
+        "text": "Programs designed to prom[ote] cooperation improve community resilience."
+      },
+      {
+        "text": "Scientific prog[ress] often occurs gradually rather than suddenly."
+      }
+    ]
+  },
+  {
+    "prefix": "anti-",
+    "meaning": "against (반대)",
+    "items": [
+      {
+        "text": "Doctors prescribe antibio[tics] only when bacterial infections are confirmed."
+      },
+      {
+        "text": "Prolonged isolation can encourage antisoc[ial] behavior among adolescents."
+      },
+      {
+        "text": "The final result was anticlim[actic], disappointing many observers."
+      },
+      {
+        "text": "Overuse of antibio[tics] can lead to drug-resistant bacteria"
+      },
+      {
+        "text": "Policies that promote exclusion may foster antisoc[ial] tendencies."
+      },
+      {
+        "text": "The long-awaited announcement turned out to be anticlim[actic] rather than exciting."
+      }
+    ]
+  },
+  {
+    "prefix": "auto-",
+    "meaning": "self (스스로)",
+    "items": [
+      {
+        "text": "Some regions operate as autonom[ous] units with independent decision-making power."
+      },
+      {
+        "text": "Modern vehicles rely on automat[ic] systems to improve safety and efficiency."
+      },
+      {
+        "text": "The university grants autonom[ous] authority to individual research institutes."
+      },
+      {
+        "text": "Factories increasingly use automat[ic] machinery to reduce labor costs."
+      },
+      {
+        "text": "Indigenous communities often seek autonom[ous] control over local resources."
+      },
+      {
+        "text": "The device switches into automat[ic] mode when a malfunction is detected."
+      }
+    ]
+  },
+  {
+    "prefix": "bio-",
+    "meaning": "life (생명)",
+    "items": [
+      {
+        "text": "Advances in biolo[gy] have transformed modern medicine."
+      },
+      {
+        "text": "Tropical rainforests support high levels of biodiver[sity]."
+      },
+      {
+        "text": "Students studying biolo[gy] must understand cellular processes."
+      },
+      {
+        "text": "Habitat destruction poses a serious threat to biodiver[sity] worldwide."
+      },
+      {
+        "text": "Research in biolo[gy] helps explain how organisms adapt to their environments."
+      },
+      {
+        "text": "Climate change is a major factor contributing to the loss of biodiver[sity]."
+      }
+    ]
+  },
+  {
+    "prefix": "geo-",
+    "meaning": "earth (지구)",
+    "items": [
+      {
+        "text": "Students of geolo[gy] examine rock formations to understand Earth's history."
+      },
+      {
+        "text": "Iceland relies heavily on geother[mal] energy for heating and electricity."
+      },
+      {
+        "text": "Advances in geolo[gy] have improved predictions of volcanic activity."
+      },
+      {
+        "text": "Geother[mal] power plants generate energy from heat beneath the Earth's surface."
+      },
+      {
+        "text": "Knowledge of geolo[gy] is essential for locating natural resources."
+      },
+      {
+        "text": "Many countries invest in geother[mal] systems to reduce carbon emissions."
+      }
+    ]
+  },
+  {
+    "prefix": "multi-",
+    "meaning": "many (많은)",
+    "items": [
+      {
+        "text": "The company operates as a multinat[ional] corporation with offices worldwide."
+      },
+      {
+        "text": "Urban centers often develop multicult[ural] communities through migration."
+      },
+      {
+        "text": "A multinat[ional] firm must adapt to different legal systems."
+      },
+      {
+        "text": "Education in multicult[ural] societies requires inclusive policies."
+      },
+      {
+        "text": "Economic agreements increasingly involve multinat[ional] partnerships."
+      },
+      {
+        "text": "Multicult[ural] environments encourage cultural exchange and tolerance."
+      }
+    ]
+  },
+  {
+    "prefix": "mono-",
+    "meaning": "one (하나)",
+    "items": [
+      {
+        "text": "A monop[oly] can reduce competition and limit consumer choice."
+      },
+      {
+        "text": "Children raised in monoling[ual] environments may face challenges learning new languages."
+      },
+      {
+        "text": "Governments often regulate monop[oly] practices to protect fair markets."
+      },
+      {
+        "text": "Monoling[ual] speakers sometimes struggle in globalized workplaces."
+      },
+      {
+        "text": "The company was accused of creating a monop[oly] in the telecommunications sector."
+      },
+      {
+        "text": "Education systems that serve monoling[ual] populations may need language support programs."
+      }
+    ]
+  },
+  {
+    "prefix": "post-",
+    "meaning": "after (이후)",
+    "items": [
+      {
+        "text": "Many European cities underwent rapid reconstruction during the postw[ar] period."
+      },
+      {
+        "text": "Economic structures shifted dramatically in postind[ustrial] societies."
+      },
+      {
+        "text": "The postw[ar] generation experienced significant social and political change."
+      },
+      {
+        "text": "Employment patterns evolved as nations entered the postind[ustrial] era."
+      },
+      {
+        "text": "Cultural identity was reshaped in the postw[ar] years following the conflict."
+      },
+      {
+        "text": "Education systems adapted to the needs of a postind[ustrial] economy."
+      }
+    ]
+  },
+  {
+    "prefix": "semi-",
+    "meaning": "half (절반)",
+    "items": [
+      {
+        "text": "Modern electronics rely heavily on semicondu[ctors] to control electrical signals."
+      },
+      {
+        "text": "The engineer drew a semicir[cle] to represent half of the structure."
+      },
+      {
+        "text": "Advances in semicondu[ctor] technology have transformed computing."
+      },
+      {
+        "text": "A semicir[cle] arch was used to support the bridge design."
+      },
+      {
+        "text": "Supply shortages disrupted the global semicondu[ctor] industry."
+      },
+      {
+        "text": "The diagram showed a semicir[cle] shape rather than a full circle."
+      }
+    ]
+  }
+]

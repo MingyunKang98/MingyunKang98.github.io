@@ -171,6 +171,32 @@ nav_order: 6
 .pe-page-btn:hover { border-color: #4a90e2; color: #4a90e2; }
 .pe-page-btn.active { background: #4a90e2; border-color: #4a90e2; color: white; }
 .pe-page-info { font-size: 0.82rem; color: #aaa; margin-left: 0.25rem; }
+
+/* ── Prefix styles ── */
+.px-select { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.px-chip {
+  padding: 0.3rem 0.7rem; border-radius: 20px;
+  border: 2px solid #e0e0e0; background: white;
+  cursor: pointer; font-size: 0.82rem; font-weight: 700; color: #555;
+  font-family: ui-monospace, monospace; transition: all 0.15s;
+}
+.px-chip:hover { border-color: #e07b39; color: #e07b39; }
+.px-chip.active { background: #e07b39; border-color: #e07b39; color: white; }
+
+.px-item {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.35rem 0;
+  align-items: baseline;
+}
+.px-item .px-num {
+  flex: 0 0 1.8rem;
+  text-align: right;
+  color: #aaa;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.px-item .px-sentence { flex: 1; }
 </style>
 
 <div class="toefl-container">
@@ -179,6 +205,7 @@ nav_order: 6
   <div class="toefl-tabs">
     <button class="toefl-tab active" onclick="switchTab('reading')">Reading Task 1</button>
     <button class="toefl-tab"        onclick="switchTab('pair')">짝 표현</button>
+    <button class="toefl-tab"        onclick="switchTab('prefix')">접두사</button>
   </div>
 
   <!-- ══════════ Reading Task 1 ══════════ -->
@@ -243,6 +270,37 @@ nav_order: 6
     </div>
   </div>
 
+  <!-- ══════════ 접두사 ══════════ -->
+  <div class="toefl-section" id="section-prefix">
+    <div class="toefl-header">
+      <div>
+        <span class="toefl-badge" style="background:#e07b39;">접두사</span>
+        <h4 style="margin:0.4rem 0 0; font-weight:700;">빈출 접두사 — Complete the Words</h4>
+      </div>
+      <div class="pe-page-info" id="px-progress"></div>
+    </div>
+
+    <div class="px-select" id="px-select"></div>
+    <div class="toefl-topic" id="px-meaning"></div>
+
+    <div class="toefl-controls">
+      <button class="toefl-btn btn-success"   onclick="pxCheck()">✓ Check Answers</button>
+      <button class="toefl-btn btn-outline"   onclick="pxReveal()">Show Answers</button>
+      <button class="toefl-btn btn-secondary" onclick="pxReset()">↺ Reset</button>
+    </div>
+
+    <div class="toefl-passage" id="px-list"></div>
+
+    <div class="toefl-score" id="px-scoreBox">
+      <div class="score-row">
+        <span class="score-label">Score</span>
+        <span class="score-big" id="px-scoreNum">0/10</span>
+      </div>
+      <div class="score-bar-bg"><div class="score-bar-fill" id="px-scoreBar" style="width:0%"></div></div>
+      <p id="px-scoreFeedback" style="margin:0.6rem 0 0; font-size:0.9rem; color:#555;"></p>
+    </div>
+  </div>
+
 </div><!-- end toefl-container -->
 
 <script>
@@ -251,7 +309,7 @@ nav_order: 6
 ══════════════════════════════ */
 function switchTab(id) {
   document.querySelectorAll('.toefl-tab').forEach((t, i) =>
-    t.classList.toggle('active', ['reading','pair'][i] === id));
+    t.classList.toggle('active', ['reading','pair','prefix'][i] === id));
   document.querySelectorAll('.toefl-section').forEach(s =>
     s.classList.toggle('active', s.id === 'section-' + id));
 }
@@ -491,6 +549,66 @@ function peReveal() {
 function peReset() { renderPePage(pePage); }
 
 /* ══════════════════════════════
+   접두사 (Prefix)
+══════════════════════════════ */
+let pxData = [], pxIdx = 0;
+
+function renderPrefix(idx) {
+  pxIdx = idx;
+  const group = pxData[idx];
+  document.getElementById('px-meaning').textContent = group.prefix + '  =  ' + group.meaning;
+  const list = document.getElementById('px-list');
+  list.innerHTML = group.items.map((item, i) =>
+    `<div class="px-item" id="px-item-${i}">
+       <span class="px-num">${i+1}.</span>
+       <span class="px-sentence">${buildLetterBoxes(parseText(item.text), 'px' + i)}</span>
+     </div>`
+  ).join('');
+  document.getElementById('px-scoreBox').classList.remove('show');
+  document.querySelectorAll('.px-chip').forEach((c,i) => c.classList.toggle('active', i===idx));
+  document.getElementById('px-progress').textContent =
+    `${group.items.length} sentences`;
+  attachBoxEvents(list);
+}
+
+function buildPrefixChips() {
+  document.getElementById('px-select').innerHTML = pxData.map((g,i) =>
+    `<button class="px-chip ${i===0?'active':''}" onclick="renderPrefix(${i})">${g.prefix}</button>`
+  ).join('');
+}
+
+function pxCheck() {
+  let correct = 0, total = 0;
+  document.querySelectorAll('#px-list .toefl-blank').forEach(span => {
+    total++;
+    const answer = span.dataset.answer;
+    const typed = Array.from(span.querySelectorAll('.letter-box')).map(b=>b.value.toLowerCase()).join('');
+    const ok = typed === answer;
+    if (ok) correct++;
+    span.querySelectorAll('.letter-box').forEach(b => {
+      b.classList.toggle('correct', ok); b.classList.toggle('incorrect', !ok);
+    });
+  });
+  const pct = Math.round(correct/total*100);
+  document.getElementById('px-scoreNum').textContent = correct+'/'+total;
+  document.getElementById('px-scoreBar').style.width = pct+'%';
+  document.getElementById('px-scoreFeedback').textContent = scoreMsg(pct);
+  document.getElementById('px-scoreBox').classList.add('show');
+}
+
+function pxReveal() {
+  document.querySelectorAll('#px-list .toefl-blank').forEach(span => {
+    const answer = span.dataset.answer;
+    span.querySelectorAll('.letter-box').forEach((b,i) => {
+      b.value = answer[i]||''; b.classList.add('correct'); b.classList.remove('incorrect');
+    });
+  });
+  pxCheck();
+}
+
+function pxReset() { renderPrefix(pxIdx); }
+
+/* ══════════════════════════════
    Load data
 ══════════════════════════════ */
 fetch('{{ "/assets/json/toefl-passages.json" | relative_url }}')
@@ -502,4 +620,9 @@ fetch('{{ "/assets/json/pair-expressions.json" | relative_url }}')
   .then(r => r.json())
   .then(data => { peData = data; renderPePage(0); })
   .catch(() => { document.getElementById('pe-grid').textContent = 'Failed to load pair expressions.'; });
+
+fetch('{{ "/assets/json/prefixes.json" | relative_url }}')
+  .then(r => r.json())
+  .then(data => { pxData = data; buildPrefixChips(); renderPrefix(0); })
+  .catch(() => { document.getElementById('px-list').textContent = 'Failed to load prefixes.'; });
 </script>
