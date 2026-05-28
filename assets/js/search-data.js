@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-toefl",
           title: "TOEFL",
-          description: "TOEFL iBT 2026 practice — Reading Task 1, 짝표현, 접두사",
+          description: "TOEFL iBT 2026 practice — Reading Task 1, 짝표현, and 접두사",
           section: "Navigation",
           handler: () => {
             window.location.href = "/toefl/";
