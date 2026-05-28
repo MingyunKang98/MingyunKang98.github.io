@@ -2,7 +2,7 @@
 layout: page
 title: TOEFL
 permalink: /toefl/
-description: TOEFL iBT 2026 practice — Reading Task 1, 짝표현, 접두사
+description: TOEFL iBT 2026 practice — Reading Task 1, 짝표현, and 접두사
 nav: true
 nav_order: 6
 ---
