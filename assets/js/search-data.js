@@ -493,6 +493,11 @@ ninja.data = [{
           description: "빈출 접두사 22종 · 200문장 (해커스 박보라 응용문제)",
           section: "Toefl",handler: () => {
               window.location.href = "/toefl/3_prefix/";
+            },},{id: "toefl-writing-task-1",
+          title: 'Writing Task 1',
+          description: "Build a Sentence — 단어를 올바른 순서로 배치",
+          section: "Toefl",handler: () => {
+              window.location.href = "/toefl/4_writing/";
             },},{
         id: 'social-cv',
         title: 'CV',
