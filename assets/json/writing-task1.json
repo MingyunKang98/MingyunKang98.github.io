@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "prompt": "Why did the HR department reschedule the training session?",
+    "template": ["_", "_", "_", "_", "_", "_", "_", "."],
+    "answer": ["the trainer", "was", "sick", "and couldn't", "come", "on", "the original date"],
+    "bank": ["the original date", "the trainer", "was", "and couldn't", "come", "sick", "on"]
+  },
+  {
+    "id": 2,
+    "prompt": "Can you tell me why you bought the car?",
+    "template": ["I", "_", "_", "_", "_", "_", "_", "_", "."],
+    "answer": ["needed", "something", "reliable", "for", "my", "long", "daily commute"],
+    "bank": ["long", "something", "for", "daily commute", "needed", "reliable", "my"]
+  },
+  {
+    "id": 3,
+    "prompt": "Do you know anyone who can help Sean with his math assignment?",
+    "template": ["Have", "_", "_", "_", "_", "_", "_", "_", "?"],
+    "answer": ["you", "asked", "the student services office", "if", "they", "offer", "tutoring"],
+    "bank": ["the student services office", "tutoring", "asked", "offer", "if", "they", "you"]
+  },
+  {
+    "id": 4,
+    "prompt": "I heard tomorrow's class with Professor Clark has been canceled.",
+    "template": ["On", "_", "_", "_", "_", "_", "_", "?"],
+    "answer": ["which", "day", "is", "the", "makeup class", "scheduled"],
+    "bank": ["day", "is", "which", "the", "scheduled", "makeup class"]
+  },
+  {
+    "id": 5,
+    "prompt": "I'm thinking about signing up for a new credit card.",
+    "template": ["_", "_", "_", "_", "_", "_", "?"],
+    "answer": ["Which", "types of", "benefits", "do", "you", "prioritize"],
+    "bank": ["benefits", "prioritize", "you", "do", "types of", "which"]
+  },
+  {
+    "id": 6,
+    "prompt": "Why did you leave the office so suddenly yesterday?",
+    "template": ["_", "_", "_", "that", "_", "_", "_", "."],
+    "answer": ["Something", "urgent", "came up", "I", "couldn't", "ignore"],
+    "bank": ["urgent", "came up", "ignore", "something", "I", "ignored", "couldn't"]
+  },
+  {
+    "id": 7,
+    "prompt": "I'm considering volunteering at the local animal shelter.",
+    "template": ["_", "_", "_", "_", "_", "_", "already", "_", "there", "?"],
+    "answer": ["Have", "you", "spoken", "to", "someone", "who", "volunteers"],
+    "bank": ["someone", "spoken", "you", "volunteers", "who", "have", "to"]
+  },
+  {
+    "id": 8,
+    "prompt": "Did Professor Lee mention anything about the midterm schedule?",
+    "template": ["_", "_", "_", "_", "_", "_", "_", "in the next few days", "."],
+    "answer": ["She", "told", "us", "it", "should", "be", "finalized"],
+    "bank": ["be", "us", "should", "is", "she", "told", "it", "finalized"]
+  },
+  {
+    "id": 9,
+    "prompt": "Can you confirm if production is on schedule?",
+    "template": ["We've", "_", "_", "_", "_", "_", "_", "_", "."],
+    "answer": ["encountered", "some", "unexpected issues", "that", "might", "cause", "a small delay"],
+    "bank": ["cause", "some", "to cause", "that", "encountered", "a small delay", "might", "unexpected issues"]
+  },
+  {
+    "id": 10,
+    "prompt": "What did the department chair ask you?",
+    "template": ["_", "_", "_", "would be", "_", "_", "_", "."],
+    "answer": ["He", "wondered", "who", "presenting", "at", "the seminar"],
+    "bank": ["the seminar", "wondered", "how", "presenting", "who", "at", "he"]
+  }
+]

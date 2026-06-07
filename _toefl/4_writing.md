@@ -1,0 +1,470 @@
+---
+layout: page
+title: Writing Task 1
+description: Build a Sentence — 단어를 올바른 순서로 배치
+img: assets/img/5.jpg
+importance: 4
+category: practice
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/toefl.css' | relative_url }}">
+
+<style>
+/* ── Writing Task 1 specific ── */
+.ws-qnav {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.ws-qchip {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  border: 1.5px solid #e0e0e0;
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #555;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ws-qchip:hover { border-color: #4a90e2; color: #4a90e2; }
+.ws-qchip.active { background: #4a90e2; border-color: #4a90e2; color: white; }
+.ws-qchip.answered.correct  { border-color: #27ae60; color: #27ae60; }
+.ws-qchip.answered.incorrect{ border-color: #e74c3c; color: #e74c3c; }
+.ws-qchip.active.answered.correct  { background: #27ae60; border-color: #27ae60; color: white; }
+.ws-qchip.active.answered.incorrect{ background: #e74c3c; border-color: #e74c3c; color: white; }
+
+.ws-card {
+  background: #f8f9fa;
+  border-left: 4px solid #4a90e2;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.ws-speaker {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  margin-bottom: 0.95rem;
+}
+.ws-speaker:last-child { margin-bottom: 0; }
+.ws-avatar {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: white;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
+}
+.ws-avatar.a { background: #95a5a6; }
+.ws-avatar.b { background: #4a90e2; }
+.ws-utterance { flex: 1; line-height: 1.7; font-size: 1.02rem; min-width: 0; }
+
+.ws-template-area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  line-height: 1;
+  font-size: 1.02rem;
+}
+.ws-anchor { color: #222; }
+.ws-punct  { color: #222; margin-left: -6px; }
+
+.ws-slot {
+  display: inline-block;
+  min-width: 80px;
+  height: 30px;
+  border: 1.5px dashed #b5b5b5;
+  border-radius: 5px;
+  vertical-align: middle;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.ws-slot:hover { border-color: #4a90e2; background: #eef4fd; }
+
+.ws-chip {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 18px;
+  border: 1.5px solid #4a90e2;
+  background: #eef4fd;
+  color: #2563eb;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.ws-chip:hover { background: #4a90e2; color: white; }
+.ws-chip.filled { vertical-align: middle; }
+.ws-chip.correct {
+  border-color: #27ae60;
+  background: #d4edda;
+  color: #155724;
+}
+.ws-chip.incorrect {
+  border-color: #e74c3c;
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.ws-bank-section {
+  background: #fff;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem 1rem;
+  margin-bottom: 1.25rem;
+}
+.ws-bank-title {
+  font-size: 0.72rem;
+  color: #888;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 0.55rem;
+}
+.ws-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  min-height: 36px;
+}
+.ws-bank:empty::after {
+  content: 'All words placed';
+  color: #aaa;
+  font-size: 0.85rem;
+  font-style: italic;
+  align-self: center;
+}
+
+.ws-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+.ws-final-btn {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.7rem 2rem;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+}
+.ws-final-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+</style>
+
+<div class="toefl-container">
+  <a href="{{ '/toefl/' | relative_url }}" class="toefl-back">← Back to TOEFL</a>
+
+  <div class="toefl-header">
+    <div>
+      <span class="toefl-badge" style="background:#27ae60;">TOEFL 2026</span>
+      <h4 style="margin:0.4rem 0 0; font-weight:700;">Writing Task 1 — Build a Sentence</h4>
+    </div>
+    <div class="toefl-timer" id="ws-timer">07:00</div>
+  </div>
+
+  <div class="toefl-topic">Make an appropriate sentence by arranging the words in the correct order.</div>
+
+  <div class="ws-qnav" id="ws-qnav"></div>
+
+  <div class="toefl-controls">
+    <button class="toefl-btn btn-primary"   onclick="wsStartTimer()">▶ Start Timer</button>
+    <button class="toefl-btn btn-success"   onclick="wsCheck()">✓ Check</button>
+    <button class="toefl-btn btn-outline"   onclick="wsReveal()">Show Answer</button>
+    <button class="toefl-btn btn-secondary" onclick="wsReset()">↺ Reset</button>
+  </div>
+
+  <div class="ws-progress">
+    <span id="ws-qlabel">Question 1 / 10</span>
+    <span id="ws-status"></span>
+  </div>
+
+  <div class="ws-card">
+    <div class="ws-speaker">
+      <div class="ws-avatar a">A</div>
+      <div class="ws-utterance" id="ws-prompt">Loading…</div>
+    </div>
+    <div class="ws-speaker">
+      <div class="ws-avatar b">B</div>
+      <div class="ws-utterance">
+        <div class="ws-template-area" id="ws-template"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ws-bank-section">
+    <div class="ws-bank-title">Word Bank</div>
+    <div class="ws-bank" id="ws-bank"></div>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; gap:0.5rem;">
+    <button class="toefl-btn btn-outline" onclick="wsPrev()">← Previous</button>
+    <button class="toefl-btn btn-outline" onclick="wsNext()">Next →</button>
+  </div>
+
+  <button class="ws-final-btn" onclick="wsSubmitAll()">Submit All & See Final Score</button>
+
+  <div class="toefl-score" id="ws-scoreBox" style="margin-top:1.5rem;">
+    <div class="score-row">
+      <span class="score-label">Final Score</span>
+      <span class="score-big" id="ws-scoreNum">0/10</span>
+    </div>
+    <div class="score-bar-bg"><div class="score-bar-fill" id="ws-scoreBar" style="width:0%"></div></div>
+    <p id="ws-scoreFeedback" style="margin:0.6rem 0 0; font-size:0.9rem; color:#555;"></p>
+  </div>
+</div>
+
+<script>
+let wsData = [];
+let wsCurrent = 0;
+// chipPos[q] = { chipIdx: slotIdx | null }
+let wsChipPos = {};
+// checked[q] = { checked: bool, correct: bool }
+let wsChecked = {};
+let wsTimerInterval = null;
+let wsSecondsLeft = 7 * 60;
+
+function wsCountBlanks(q) {
+  return q.template.filter(t => t === '_').length;
+}
+
+function wsInitQuestion(q, idx) {
+  // initialize positions: all chips in bank
+  wsChipPos[idx] = {};
+  q.bank.forEach((_, i) => { wsChipPos[idx][i] = null; });
+  wsChecked[idx] = { checked: false, correct: false };
+}
+
+function wsFindChipInSlot(qIdx, slotIdx) {
+  const pos = wsChipPos[qIdx];
+  for (const ci in pos) {
+    if (pos[ci] === slotIdx) return parseInt(ci);
+  }
+  return null;
+}
+
+function wsRender() {
+  const q = wsData[wsCurrent];
+  document.getElementById('ws-prompt').textContent = q.prompt;
+  document.getElementById('ws-qlabel').textContent = `Question ${wsCurrent + 1} / ${wsData.length}`;
+
+  // Template area
+  const tpl = document.getElementById('ws-template');
+  let html = '';
+  let blankIdx = 0;
+  const checked = wsChecked[wsCurrent].checked;
+  for (const tok of q.template) {
+    if (tok === '_') {
+      const chipIdx = wsFindChipInSlot(wsCurrent, blankIdx);
+      if (chipIdx !== null) {
+        const word = q.bank[chipIdx];
+        let cls = 'ws-chip filled';
+        if (checked) {
+          const ok = word.toLowerCase().trim() === q.answer[blankIdx].toLowerCase().trim();
+          cls += ok ? ' correct' : ' incorrect';
+        }
+        html += `<button class="${cls}" onclick="wsReturnChip(${chipIdx})">${word}</button>`;
+      } else {
+        html += `<span class="ws-slot" data-slot="${blankIdx}" onclick="wsClickSlot(${blankIdx})"></span>`;
+      }
+      blankIdx++;
+    } else if (/^[.,?!;:]+$/.test(tok)) {
+      html += `<span class="ws-punct">${tok}</span>`;
+    } else {
+      html += `<span class="ws-anchor">${tok}</span>`;
+    }
+  }
+  tpl.innerHTML = html;
+
+  // Bank
+  const bank = document.getElementById('ws-bank');
+  let bankHtml = '';
+  q.bank.forEach((word, i) => {
+    if (wsChipPos[wsCurrent][i] === null) {
+      bankHtml += `<button class="ws-chip" onclick="wsPlaceChip(${i})">${word}</button>`;
+    }
+  });
+  bank.innerHTML = bankHtml;
+
+  // Nav chips
+  const nav = document.getElementById('ws-qnav');
+  let navHtml = '';
+  wsData.forEach((_, i) => {
+    let cls = 'ws-qchip';
+    if (i === wsCurrent) cls += ' active';
+    if (wsChecked[i] && wsChecked[i].checked) {
+      cls += ' answered ' + (wsChecked[i].correct ? 'correct' : 'incorrect');
+    }
+    navHtml += `<button class="${cls}" onclick="wsGoTo(${i})">${i + 1}</button>`;
+  });
+  nav.innerHTML = navHtml;
+
+  // Status
+  const statusEl = document.getElementById('ws-status');
+  if (checked) {
+    statusEl.textContent = wsChecked[wsCurrent].correct ? '✓ Correct' : '✗ Try again';
+    statusEl.style.color = wsChecked[wsCurrent].correct ? '#27ae60' : '#e74c3c';
+  } else {
+    statusEl.textContent = '';
+  }
+}
+
+function wsPlaceChip(chipIdx) {
+  const q = wsData[wsCurrent];
+  // find first empty slot
+  const numBlanks = wsCountBlanks(q);
+  for (let i = 0; i < numBlanks; i++) {
+    if (wsFindChipInSlot(wsCurrent, i) === null) {
+      wsChipPos[wsCurrent][chipIdx] = i;
+      wsChecked[wsCurrent].checked = false;
+      wsRender();
+      return;
+    }
+  }
+}
+
+function wsReturnChip(chipIdx) {
+  wsChipPos[wsCurrent][chipIdx] = null;
+  wsChecked[wsCurrent].checked = false;
+  wsRender();
+}
+
+function wsClickSlot(slotIdx) {
+  // no-op on empty slot; click bank chip instead
+}
+
+function wsCheck() {
+  const q = wsData[wsCurrent];
+  const numBlanks = wsCountBlanks(q);
+  let allCorrect = true;
+  for (let i = 0; i < numBlanks; i++) {
+    const ci = wsFindChipInSlot(wsCurrent, i);
+    if (ci === null) { allCorrect = false; break; }
+    const word = q.bank[ci];
+    if (word.toLowerCase().trim() !== q.answer[i].toLowerCase().trim()) {
+      allCorrect = false;
+    }
+  }
+  wsChecked[wsCurrent] = { checked: true, correct: allCorrect };
+  wsRender();
+}
+
+function wsReveal() {
+  const q = wsData[wsCurrent];
+  // Clear positions
+  Object.keys(wsChipPos[wsCurrent]).forEach(k => { wsChipPos[wsCurrent][k] = null; });
+  // For each answer word in order, find matching chip and place
+  q.answer.forEach((ans, slotIdx) => {
+    const chipIdx = q.bank.findIndex((w, i) =>
+      w.toLowerCase().trim() === ans.toLowerCase().trim() && wsChipPos[wsCurrent][i] === null
+    );
+    if (chipIdx >= 0) wsChipPos[wsCurrent][chipIdx] = slotIdx;
+  });
+  wsChecked[wsCurrent] = { checked: true, correct: true };
+  wsRender();
+}
+
+function wsReset() {
+  Object.keys(wsChipPos[wsCurrent]).forEach(k => { wsChipPos[wsCurrent][k] = null; });
+  wsChecked[wsCurrent] = { checked: false, correct: false };
+  wsRender();
+}
+
+function wsGoTo(idx) {
+  wsCurrent = idx;
+  wsRender();
+}
+function wsPrev() { if (wsCurrent > 0) { wsCurrent--; wsRender(); } }
+function wsNext() { if (wsCurrent < wsData.length - 1) { wsCurrent++; wsRender(); } }
+
+function wsSubmitAll() {
+  // Check every question
+  let correct = 0;
+  wsData.forEach((q, idx) => {
+    const numBlanks = wsCountBlanks(q);
+    let ok = true;
+    for (let i = 0; i < numBlanks; i++) {
+      const ci = wsFindChipInSlot(idx, i);
+      if (ci === null) { ok = false; break; }
+      const word = q.bank[ci];
+      if (word.toLowerCase().trim() !== q.answer[i].toLowerCase().trim()) {
+        ok = false;
+      }
+    }
+    wsChecked[idx] = { checked: true, correct: ok };
+    if (ok) correct++;
+  });
+  const total = wsData.length;
+  const pct = Math.round(correct / total * 100);
+  document.getElementById('ws-scoreNum').textContent = correct + '/' + total;
+  document.getElementById('ws-scoreBar').style.width = pct + '%';
+  const msgs = [
+    [100, 'Perfect! Excellent grammar and word order.'],
+    [80,  'Great job! Review the missed ones.'],
+    [60,  'Good effort. Pay attention to clause structure.'],
+    [40,  'Keep practicing! Focus on subject-verb-object order.'],
+    [0,   'Try again — read each prompt carefully.']
+  ];
+  document.getElementById('ws-scoreFeedback').textContent =
+    msgs.find(([k]) => pct >= k)[1];
+  document.getElementById('ws-scoreBox').classList.add('show');
+  if (wsTimerInterval) { clearInterval(wsTimerInterval); wsTimerInterval = null; }
+  wsRender();
+}
+
+function wsUpdateTimer() {
+  const m = Math.floor(wsSecondsLeft / 60).toString().padStart(2, '0');
+  const s = (wsSecondsLeft % 60).toString().padStart(2, '0');
+  const el = document.getElementById('ws-timer');
+  el.textContent = m + ':' + s;
+  el.classList.toggle('warning', wsSecondsLeft <= 60);
+}
+
+function wsStartTimer() {
+  if (wsTimerInterval) return;
+  wsTimerInterval = setInterval(() => {
+    wsSecondsLeft--;
+    wsUpdateTimer();
+    if (wsSecondsLeft <= 0) {
+      clearInterval(wsTimerInterval);
+      wsTimerInterval = null;
+      wsSubmitAll();
+    }
+  }, 1000);
+}
+
+fetch('{{ "/assets/json/writing-task1.json" | relative_url }}')
+  .then(r => r.json())
+  .then(data => {
+    wsData = data;
+    wsData.forEach((q, i) => wsInitQuestion(q, i));
+    wsRender();
+  })
+  .catch(() => {
+    document.getElementById('ws-prompt').textContent = 'Failed to load writing task 1 questions.';
+  });
+</script>
