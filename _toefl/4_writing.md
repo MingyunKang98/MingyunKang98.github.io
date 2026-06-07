@@ -85,19 +85,20 @@ category: practice
 
 .ws-slot {
   display: inline-block;
-  min-width: 80px;
-  height: 30px;
+  min-width: 110px;
+  height: 36px;
   border: 1.5px dashed #b5b5b5;
   border-radius: 5px;
   vertical-align: middle;
   background: #fff;
+  margin: 2px 0;
   transition: border-color 0.15s, background 0.15s, transform 0.1s;
 }
 .ws-slot.drag-over {
   border-color: #4a90e2;
   border-style: solid;
   background: #eef4fd;
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .ws-chip {
@@ -142,7 +143,7 @@ category: practice
   background: #fff;
   border: 1.5px solid #e0e0e0;
   border-radius: 8px;
-  padding: 0.85rem 1.1rem 1rem;
+  padding: 1rem 1.25rem 1.25rem;
   margin-bottom: 1.25rem;
 }
 .ws-bank-title {
@@ -151,21 +152,23 @@ category: practice
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.75rem;
 }
 .ws-bank {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  min-height: 40px;
-  padding: 4px;
-  border-radius: 6px;
-  transition: background 0.15s;
+  align-content: flex-start;
+  gap: 0.5rem;
+  min-height: 110px;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background: #fafbfc;
+  border: 1.5px dashed transparent;
+  transition: background 0.15s, border-color 0.15s;
 }
 .ws-bank.drag-over {
   background: #eef4fd;
-  outline: 2px dashed #4a90e2;
-  outline-offset: -2px;
+  border-color: #4a90e2;
 }
 .ws-bank:empty::after {
   content: 'All words placed — drag a placed word back here to remove it.';
@@ -174,6 +177,8 @@ category: practice
   font-style: italic;
   align-self: center;
   padding: 0 0.5rem;
+  width: 100%;
+  text-align: center;
 }
 
 .ws-progress {
