@@ -37,8 +37,8 @@
   {
     "id": 6,
     "prompt": "Why did you leave the office so suddenly yesterday?",
-    "template": ["_", "_", "_", "that", "_", "_", "_", "."],
-    "answer": ["Something", "urgent", "came up", "I", "couldn't", "ignore"],
+    "template": ["_", "_", "that", "_", "_", "_", "_", "."],
+    "answer": ["Something", "urgent", "I", "couldn't", "ignore", "came up"],
     "bank": ["urgent", "came up", "ignore", "something", "I", "ignored", "couldn't"]
   },
   {

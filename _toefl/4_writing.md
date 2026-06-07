@@ -91,10 +91,14 @@ category: practice
   border-radius: 5px;
   vertical-align: middle;
   background: #fff;
-  cursor: pointer;
-  transition: border-color 0.15s, background 0.15s;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
 }
-.ws-slot:hover { border-color: #4a90e2; background: #eef4fd; }
+.ws-slot.drag-over {
+  border-color: #4a90e2;
+  border-style: solid;
+  background: #eef4fd;
+  transform: scale(1.05);
+}
 
 .ws-chip {
   display: inline-block;
@@ -106,12 +110,23 @@ category: practice
   font-family: inherit;
   font-size: 0.95rem;
   font-weight: 500;
-  cursor: pointer;
+  cursor: grab;
   transition: all 0.15s;
   white-space: nowrap;
+  user-select: none;
+  -webkit-user-drag: element;
 }
 .ws-chip:hover { background: #4a90e2; color: white; }
+.ws-chip:active { cursor: grabbing; }
+.ws-chip.dragging { opacity: 0.4; cursor: grabbing; }
 .ws-chip.filled { vertical-align: middle; }
+.ws-chip.filled.drag-over {
+  border-color: #f39c12;
+  border-style: solid;
+  background: #fef5e7;
+  color: #c87f0a;
+  transform: scale(1.05);
+}
 .ws-chip.correct {
   border-color: #27ae60;
   background: #d4edda;
@@ -142,14 +157,23 @@ category: practice
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  min-height: 36px;
+  min-height: 40px;
+  padding: 4px;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.ws-bank.drag-over {
+  background: #eef4fd;
+  outline: 2px dashed #4a90e2;
+  outline-offset: -2px;
 }
 .ws-bank:empty::after {
-  content: 'All words placed';
+  content: 'All words placed — drag a placed word back here to remove it.';
   color: #aaa;
   font-size: 0.85rem;
   font-style: italic;
   align-self: center;
+  padding: 0 0.5rem;
 }
 
 .ws-progress {
@@ -217,8 +241,11 @@ category: practice
   </div>
 
   <div class="ws-bank-section">
-    <div class="ws-bank-title">Word Bank</div>
-    <div class="ws-bank" id="ws-bank"></div>
+    <div class="ws-bank-title">Word Bank · Drag words into the blanks (any order)</div>
+    <div class="ws-bank" id="ws-bank"
+         ondragover="wsDragOver(event)"
+         ondragleave="wsDragLeave(event)"
+         ondrop="wsDropOnBank(event)"></div>
   </div>
 
   <div style="display:flex; justify-content:space-between; gap:0.5rem;">
@@ -247,6 +274,7 @@ let wsChipPos = {};
 let wsChecked = {};
 let wsTimerInterval = null;
 let wsSecondsLeft = 7 * 60;
+let wsDragChip = null;  // index of chip currently being dragged
 
 function wsCountBlanks(q) {
   return q.template.filter(t => t === '_').length;
@@ -287,9 +315,21 @@ function wsRender() {
           const ok = word.toLowerCase().trim() === q.answer[blankIdx].toLowerCase().trim();
           cls += ok ? ' correct' : ' incorrect';
         }
-        html += `<button class="${cls}" onclick="wsReturnChip(${chipIdx})">${word}</button>`;
+        html += `<span class="${cls}"
+                       draggable="true"
+                       data-chip="${chipIdx}"
+                       ondragstart="wsDragStart(event, ${chipIdx})"
+                       ondragend="wsDragEnd(event)"
+                       ondragover="wsDragOver(event)"
+                       ondragleave="wsDragLeave(event)"
+                       ondrop="wsDropOnSlot(event, ${blankIdx})"
+                       title="Drag to move, or drag back to Word Bank">${word}</span>`;
       } else {
-        html += `<span class="ws-slot" data-slot="${blankIdx}" onclick="wsClickSlot(${blankIdx})"></span>`;
+        html += `<span class="ws-slot"
+                       data-slot="${blankIdx}"
+                       ondragover="wsDragOver(event)"
+                       ondragleave="wsDragLeave(event)"
+                       ondrop="wsDropOnSlot(event, ${blankIdx})"></span>`;
       }
       blankIdx++;
     } else if (/^[.,?!;:]+$/.test(tok)) {
@@ -305,7 +345,11 @@ function wsRender() {
   let bankHtml = '';
   q.bank.forEach((word, i) => {
     if (wsChipPos[wsCurrent][i] === null) {
-      bankHtml += `<button class="ws-chip" onclick="wsPlaceChip(${i})">${word}</button>`;
+      bankHtml += `<span class="ws-chip"
+                         draggable="true"
+                         data-chip="${i}"
+                         ondragstart="wsDragStart(event, ${i})"
+                         ondragend="wsDragEnd(event)">${word}</span>`;
     }
   });
   bank.innerHTML = bankHtml;
@@ -333,28 +377,63 @@ function wsRender() {
   }
 }
 
-function wsPlaceChip(chipIdx) {
-  const q = wsData[wsCurrent];
-  // find first empty slot
-  const numBlanks = wsCountBlanks(q);
-  for (let i = 0; i < numBlanks; i++) {
-    if (wsFindChipInSlot(wsCurrent, i) === null) {
-      wsChipPos[wsCurrent][chipIdx] = i;
-      wsChecked[wsCurrent].checked = false;
-      wsRender();
-      return;
-    }
-  }
+/* ── Drag & Drop ── */
+function wsDragStart(e, chipIdx) {
+  wsDragChip = chipIdx;
+  e.dataTransfer.effectAllowed = 'move';
+  try { e.dataTransfer.setData('text/plain', String(chipIdx)); } catch (_) {}
+  // Use setTimeout so the drag image is captured before opacity changes
+  setTimeout(() => e.target.classList.add('dragging'), 0);
 }
 
-function wsReturnChip(chipIdx) {
-  wsChipPos[wsCurrent][chipIdx] = null;
+function wsDragEnd(e) {
+  e.target.classList.remove('dragging');
+  document.querySelectorAll('.drag-over').forEach(el => el.classList.remove('drag-over'));
+  wsDragChip = null;
+}
+
+function wsDragOver(e) {
+  if (wsDragChip === null) return;
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+  e.currentTarget.classList.add('drag-over');
+}
+
+function wsDragLeave(e) {
+  e.currentTarget.classList.remove('drag-over');
+}
+
+function wsDropOnSlot(e, slotIdx) {
+  e.preventDefault();
+  e.stopPropagation();
+  e.currentTarget.classList.remove('drag-over');
+  if (wsDragChip === null) return;
+
+  const fromChip = wsDragChip;
+  const fromSlot = wsChipPos[wsCurrent][fromChip];  // may be null (from bank)
+  const occupant = wsFindChipInSlot(wsCurrent, slotIdx);
+
+  if (occupant === fromChip) return;  // dropped on own slot
+
+  if (occupant === null) {
+    // empty slot — just move
+    wsChipPos[wsCurrent][fromChip] = slotIdx;
+  } else {
+    // filled — swap (occupant goes to where dragged chip was; could be a slot or bank)
+    wsChipPos[wsCurrent][fromChip] = slotIdx;
+    wsChipPos[wsCurrent][occupant] = fromSlot;  // null means back to bank
+  }
   wsChecked[wsCurrent].checked = false;
   wsRender();
 }
 
-function wsClickSlot(slotIdx) {
-  // no-op on empty slot; click bank chip instead
+function wsDropOnBank(e) {
+  e.preventDefault();
+  e.currentTarget.classList.remove('drag-over');
+  if (wsDragChip === null) return;
+  wsChipPos[wsCurrent][wsDragChip] = null;
+  wsChecked[wsCurrent].checked = false;
+  wsRender();
 }
 
 function wsCheck() {
