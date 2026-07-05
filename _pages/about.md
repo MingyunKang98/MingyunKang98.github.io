@@ -14,18 +14,7 @@ profile:
     <p>✉️ kmg4312@kict.re.kr</p>
     <p>📍 Seoul, Republic of Korea</p>
 
-selected_papers: true
 social: true
-
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
 ---
 
 I am **Mingyun Kang**, a Post-Master Researcher at the [Korea Institute of Civil Engineering and Building Technology (KICT)](https://www.kict.re.kr/), the only government-funded research institute in Korea dedicated to the construction and civil engineering domain.
