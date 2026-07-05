@@ -17,15 +17,50 @@ profile:
 selected_papers: true
 social: true
 
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: true
+  scrollable: true
+  limit: 3
+---
+
+I am **Mingyun Kang**, a Post-Master Researcher at the [Korea Institute of Civil Engineering and Building Technology (KICT)](https://www.kict.re.kr/), the only government-funded research institute in Korea dedicated to the construction and civil engineering domain.
 
 ---
 
-I am **Mingyun Kang**, a Post-Master Researcher at the [Korea Institute of Civil Engineering and Building Technology (KICT)](https://www.kict.re.kr/), based in Seoul, Republic of Korea.
+### Background
 
-I received my degree(B.E & M.E) in **Architectural Engineering** from [Seoul National University of Science and Technology (SeoulTECH)](https://www.seoultech.ac.kr/), where I developed a strong foundation in building systems, structural design, and construction technology.
+I received my **B.S.** and **M.S.** in **Architectural Engineering** from [Seoul National University of Science and Technology (SeoulTECH)](https://www.seoultech.ac.kr/). Throughout my undergraduate and graduate studies, I worked as a **Research Assistant**, focusing on AI-driven solutions for **construction supervision** — developing automated methods to monitor, analyze, and improve on-site construction processes using computer vision and machine learning.
 
-At KICT, my research focuses on **[your research topic — e.g., smart construction, building performance, structural monitoring, etc.]**, with the goal of advancing sustainable and intelligent infrastructure solutions. I am particularly interested in **[specific interest area]** and its practical applications in the built environment.
+During this period, I contributed to **3 national R&D projects** funded by the Korean government, published **3 SCIE papers** (1 as first author, 2 as co-author), and filed **5 patent applications** (1 registered, 4 pending).
 
-Feel free to explore my [publications](/publications/), or reach out via email if you'd like to collaborate or discuss research.
+---
 
-I wanna study abroad~!!!!
+### Current Role at KICT
+
+At KICT, I am affiliated with the **Post-Construction Evaluation Center**, which is responsible for systematically evaluating the outcomes of publicly funded SOC (Social Overhead Capital) projects with a total budget exceeding KRW 30 billion upon their completion. My work spans two primary research directions:
+
+- **Compliance & Implementation Support** — Developing research frameworks to encourage client to fulfill post-construction evaluation requirements and to facilitate smooth reporting workflows.
+- **Feedback Loop & Knowledge Management** — Designing mechanisms to extract structured insights from collected evaluation data, so that lessons learned from completed projects can be fed back into future similar projects, ultimately building a **virtuous cycle of construction knowledge**.
+
+---
+
+### Research Interests
+
+My research sits at the intersection of **construction engineering**, **data-driven decision making**, and **emerging construction technologies**. Looking ahead, I am particularly interested in:
+
+- **AI-Powered Construction Management** — Extending my prior work on computer vision-based supervision toward broader, intelligent construction management solutions.
+- **Public SOC Data & Life-Cycle Cost (LCC) Optimization** — Leveraging accumulated post-construction evaluation data to improve efficiency across the entire project lifecycle, from planning through operation.
+- **Next-Generation Construction Technologies** — Exploring the potential of **robotics** and **3D printing** to reshape how structures are built.
+
+---
+
+### Looking Ahead
+
+I am currently preparing to apply for **PhD programs in the United States** (targeting Fall 2027 admission), where I hope to pursue research that bridges AI, construction data, and innovative construction methods. In parallel, I am actively working toward English proficiency certification (TOEFL) while continuing my research at KICT.
+
+If you share similar research interests or are open to collaboration, please feel free to reach out via [email](mailto:kmg54312@gmail.com).
