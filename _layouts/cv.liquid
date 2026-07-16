@@ -157,7 +157,7 @@ layout: default
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
-              {% elsif section_title contains 'Publications' or section_title == 'Patents' %}
+              {% elsif section_title contains 'Publications' or section_title contains 'Patents' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}
@@ -172,7 +172,7 @@ layout: default
               {% elsif section_title == 'Certificates' %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}
-              {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
+              {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' or section_title == 'R&D Projects' %}
                 {% assign entries = section_entries %}
                 {% include cv/projects.liquid %}
               {% elsif section_title == 'References' %}

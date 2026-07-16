@@ -18,7 +18,7 @@ cv:
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
         area: Architectural Engineering, School of Architecture
-        degree: Bachelor
+        degree: B.S.
         start_date: 2017-03
         end_date: 2024-02
         highlights:
@@ -28,7 +28,7 @@ cv:
       - institution: Seoul National University of Science and Technology
         location: Seoul, Republic of Korea
         area: Architectural Engineering (Integrated Bachelor-Master Program)
-        degree: Master
+        degree: M.S.
         start_date: 2024-03
         end_date: 2025-08
         highlights:
@@ -50,11 +50,29 @@ cv:
       - company: Korea Institute of Civil Engineering and Building Technology (KICT)
         position: Post-Master's Researcher
         location: Goyang, Republic of Korea
-        summary: Post-Construction Evaluation & Management Center, Conducted research on Post-Evaluation of SOC in Republic of Korea
+        summary: Post-Construction Evaluation Center — Systematically evaluating outcomes of publicly funded SOC
         start_date: 2025-11
         end_date: present
+        highlights:
+          - "Compliance & Implementation Support: Developing research frameworks to encourage clients to fulfill post-construction evaluation requirements and to facilitate smooth reporting workflows."
+          - "Feedback Loop & Knowledge Management: Designing mechanisms to extract structured insights from collected evaluation data, enabling lessons learned from completed projects to feed back into future initiatives and build a virtuous cycle of construction knowledge."
     
 
+    R&D Projects:
+      - name: "Digital Mapping-based Platform Research Laboratory for Healthy Construction Lifecycle"
+        summary: "National R&D project exploring digital mapping-based platforms for the full construction lifecycle. Focused on computer vision applications for automated construction supervision."
+        start_date: 2022-06-01
+        end_date: 2025-02-28
+
+      - name: "Development of Digital-based Architectural Supervision and Construction Automation Robot Technology"
+        summary: "Large-scale national R&D project (KRW 24,490M) funded by MOLIT aimed at developing digital architectural supervision systems and construction automation robots."
+        start_date: 2022-04-01
+        end_date: 2026-12-31
+
+      - name: "Development of Human-Robot Collaboration Technology and Integrated Operation System for High-Altitude Work at Construction Sites"
+        summary: "Ongoing national R&D project (KRW 17,000M) funded by MOLIT developing XR-based human-robot collaboration platforms for multipurpose high-altitude construction work."
+        start_date: 2025-04-25
+        end_date: 2027-12-31
 
     Publications (SCIE):
       - title: "Computer Vision-Based Adhesion Quality Inspection Model for Exterior Insulation and Finishing System"
@@ -110,6 +128,7 @@ cv:
           - Taehoon Kim
         journal: "ISARC 2025 — International Symposium on Automation and Robotics in Construction"
         date: 2025-07-28
+        doi: "10.22260/ISARC2025/0180"
         summary: "ISARC Vol. 42, pp. 1395-1400. IAARC Publications."
 
     Publications (International Conference):
@@ -155,24 +174,6 @@ cv:
         date: 2023-03-01
         summary: "JKIBC, 23(2), 165-173. (KCI)"
 
-      - title: "Preliminary Study on Semantic Segmentation-based Quality Inspection Model for Exterior Insulation"
-        authors:
-          - Sebeen Yoon
-          - "**Mingyun Kang**"
-          - Byeongmin Lee
-          - Taehoon Kim
-        journal: "Proceedings of the Architectural Institute of Korea"
-        date: 2022-10-01
-        summary: "AIK, 42(2), 704-705."
-
-      - title: "A Basic Study on Image-based Numerical Measurement Model for Construction Sites"
-        authors:
-          - Sebeen Yoon
-          - "**Mingyun Kang**"
-          - Taehoon Kim
-        journal: "Proceedings of KIBC Spring Conference"
-        date: 2023-05-19
-        summary: "KIBC Spring 2023, 23(1), 287-288. [Best Paper Award]"
 
       - title: "Applicability Enhancement of Deep Learning-based Computer Vision Models for 360° Panoramic Images"
         authors:
@@ -184,26 +185,14 @@ cv:
         date: 2023-11-02
         summary: "KICEM 2023, Goseong, 205-206."
 
-      - title: "A Basic Study on Rebar Spacing Measurement Method Based on Single Image Information"
-        authors:
-          - Cheolhun Park
-          - Jieun Lee
-          - Jihyeon Lee
-          - Yunjae Jeon
-          - "**Mingyun Kang**"
-          - Taehoon Kim
-        journal: "Proceedings of KIBC Spring Conference"
-        date: 2024-05-22
-        summary: "KIBC Spring 2024, Gunsan, 243-244."
-
       - title: "Performance Comparison Study on Image-based 3D Space Generation"
         authors:
           - "**Mingyun Kang**"
           - Sebeen Yoon
           - Taehoon Kim
-        journal: "Proceedings of Architectural Institute of Korea Autumn Conference"
+        journal: "Architectural Institute of Korea Fall Conference 2024"
         date: 2024-10-23
-        summary: "AIK Autumn 2024, Gyeongju, 974-975."
+        summary: "AIK Fall 2024, Gyeongju, 974-975."
 
       - title: "A Basic Study on 3D Reconstruction Performance Improvement Using 360° Camera"
         authors:
@@ -215,26 +204,7 @@ cv:
         date: 2024-11-01
         summary: "KIBC Autumn 2024, 203-204."
 
-      - title: "Construction of High-Resolution 360° Image Dataset Using Image Super-Resolution Technology"
-        authors:
-          - Minhyung Lee
-          - "**Mingyun Kang**"
-          - Taehoon Kim
-        journal: "Proceedings of National University Student Academic Conference"
-        date: 2024-11-01
-        summary: "National Student Conference 2024, 177-178."
 
-      - title: "A Basic Study on Image Analysis-based Crackdown on Illegal Rooftop Buildings"
-        authors:
-          - Yeon Choi
-          - Seonwoo Lee
-          - Yujin Oh
-          - Gangmin Bae
-          - "**Mingyun Kang**"
-          - Taehoon Kim
-        journal: "Proceedings of KIBC Spring Conference"
-        date: 2025-05-14
-        summary: "KIBC Spring 2025, Gyeongju, 309-310."
 
     Patents:
       - title: "Automatic Supervision Method and Device for Adhesive Application Quality"
@@ -245,6 +215,7 @@ cv:
         date: 2023-04-25
         summary: "Domestic Patent Application No. 10-2023-0053756. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
 
+    Patents (Pending):
       - title: "Automated Construction Site Supervision System"
         authors:
           - Taehoon Kim
@@ -285,54 +256,30 @@ cv:
         date: 2025-08-22
         summary: "Domestic Patent Application No. 10-2025-0117608. Seoul National University of Science and Technology Industry-Academic Cooperation Foundation."
 
-    Projects:
-      - name: "Digital Mapping-based Platform Research Laboratory for Healthy Construction Lifecycle"
-        summary: "National R&D project exploring digital mapping-based platforms for the full construction lifecycle. Focused on computer vision applications for automated construction supervision."
-        highlights:
-          - Vision-based adhesive application quality inspection for EIFS
-          - Tile quantity counting via computer vision
-        start_date: 2022-06-01
-        end_date: 2025-02-28
-
-      - name: "Development of Digital-based Architectural Supervision and Construction Automation Robot Technology"
-        summary: "Large-scale national R&D project (KRW 24,490M) funded by MOLIT aimed at developing digital architectural supervision systems and construction automation robots."
-        highlights:
-          - Instance segmentation of insulation finishing systems using synthetic datasets
-          - Panoramic image segmentation for indoor construction sites
-        start_date: 2022-04-01
-        end_date: 2026-12-31
-
-      - name: "Development of Human-Robot Collaboration Technology and Integrated Operation System for High-Altitude Work at Construction Sites"
-        summary: "Ongoing national R&D project (KRW 17,000M) funded by MOLIT developing XR-based human-robot collaboration platforms for multipurpose high-altitude construction work."
-        highlights:
-          - XR-based human-robot collaboration interface
-          - Integrated robot operation system for construction sites
-        start_date: 2025-04-25
-        end_date: 2027-12-31
 
     Awards:
-      - title: Best Paper Award (최우수학술상)
+      - title: Best Paper Award
         authors:
           - "Korean Institute of Building Construction (KIBC)"
         date: 2023-05-19
         awarder: Korean Institute of Building Construction
         summary: "Awarded at the Spring Conference 2023 for the paper: A Basic Study on Image-based Numerical Measurement Model for Construction Sites"
 
-      - title: Best Paper Award (최우수학술상)
+      - title: Best Paper Award
         authors:
           - "Korean Institute of Building Construction (KIBC)"
         date: 2024-05-24
         awarder: Korean Institute of Building Construction
         summary: "Awarded at the Spring Conference 2024 for the paper: A Basic Study on Rebar Spacing Measurement Method Based on Single Image Information"
 
-      - title: Excellence Paper Award (우수학술상)
+      - title: Excellence Paper Award
         authors:
           - "Korean Institute of Building Construction (KIBC)"
         date: 2025-05-16
         awarder: Korean Institute of Building Construction
         summary: "Awarded at the Spring Conference 2025 for the paper: A Basic Study on Image Analysis-based Crackdown on Illegal Buildings on Rooftops"
 
-      - title: Outstanding Thesis Award (우수논문상)
+      - title: Outstanding Thesis Award
         authors:
           - "Seoul National University of Science and Technology"
         date: 2025-08-21
@@ -342,27 +289,28 @@ cv:
     Languages & Skills:
       - bullet: "Korean (Native)   ·   English (Advanced)   ·   Python (Advanced)"
 
-    Hobbies:
-      - bullet: "Golf   ·   Running   ·   Snowboarding"
+    # Hobbies:
+    #   - bullet: "Golf   ·   Running   ·   Snowboarding"
 
-    Military Service:
-      - company: "Capital Defense Command, 1st Security Battalion, Republic of Korea Army"
-        position: Sergeant (병장), Rifleman
-        location: Republic of Korea
-        start_date: 2018-12
-        end_date: 2021-09
-        summary: Completed mandatory military service as an infantry rifleman. Honorably discharged at the rank of Sergeant.
+    # Military Service:
+    #   - company: "Capital Defense Command, 1st Security Battalion, Republic of Korea Army"
+    #     position: Sergeant, Rifleman
+    #     location: Republic of Korea
+    #     start_date: 2018-12
+    #     end_date: 2021-09
+    #     summary: Completed mandatory military service as an infantry rifleman.
 
     Certificates:
-      - name: Architectural Engineer License (건축기사)
+      - name: Architectural Engineer License
         date: 2025-06-13
         issuer: Human Resources Development Service of Korea
         icon: fa-solid fa-location-dot
 
-      - name: TOEIC Speaking — Advanced Low (Score 160)
-        date: 2023-11-26
+      - name: "TOEFL iBT — Score 4.5/6.0 (90/120)"
+        date: 2026-07-11
         issuer: ETS
         icon: fa-solid fa-tag
+        summary: "RC 5.0 / LC 5.0 / WRT 3.5 / SPK 4.5"
 
     References:
       - name: Professor Taehoon Kim
