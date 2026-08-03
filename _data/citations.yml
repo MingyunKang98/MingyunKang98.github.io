@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-08-03'
 papers:
   ZIYW21AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -22,8 +22,8 @@ papers:
     title: "\uC2DC\uBA58\uD2F1 \uC138\uADF8\uBA58\uD14C\uC774\uC158 \uAE30\uBC18 \uC678\uB2E8\uC5F4 \uC2DC\uACF5\uD488\uC9C8 \uAC10\uB9AC \uBAA8\uB378 \uAE30\uCD08\uC5F0\uAD6C"
     year: '2022'
   ZIYW21AAAAAJ:LkGwnXOMwfcC:
-    citations: 5
-    title: Approach to Enhancing Panoramic Segmentation in Indoor Construction Sites Based on a Perspective Image Segmentation Foundation Model
+    citations: 6
+    title: Approach to enhancing panoramic segmentation in indoor construction sites based on a perspective image segmentation foundation model
     year: '2025'
   ZIYW21AAAAAJ:MXK_kJrjxJIC:
     citations: 0
@@ -49,10 +49,6 @@ papers:
     citations: 7
     title: Computer vision-based adhesion quality inspection model for exterior insulation and finishing system
     year: '2024'
-  ZIYW21AAAAAJ:_FxGoFyzp5QC:
-    citations: 0
-    title: Preliminary Study for Image-Based Measurement Model in a Construction Site
-    year: '2023'
   ZIYW21AAAAAJ:eQOLeE2rZwMC:
     citations: 2
     title: Computer Vision-based Automated Adhesive Quality Inspection Model of Exterior Insulation and Finishing System
