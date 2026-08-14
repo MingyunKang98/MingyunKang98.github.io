@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-14'
 papers:
   ZIYW21AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -57,6 +57,10 @@ papers:
     citations: 0
     title: "\uC774\uBBF8\uC9C0 \uAE30\uBC18 3D \uACF5\uAC04\uC0DD\uC131\uC5D0 \uAD00\uD55C \uC131\uB2A5\uBE44\uAD50 \uC5F0\uAD6C"
     year: '2024'
+  ZIYW21AAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: Preliminary Study for Image-Based Measurement Model in a Construction Site
+    year: '2023'
   ZIYW21AAAAAJ:roLk4NBRz8UC:
     citations: 0
     title: Automated Vision-based Location Monitoring for Jack Support
